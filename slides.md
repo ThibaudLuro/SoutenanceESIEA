@@ -1,14 +1,13 @@
 ---
 layout: cover
-title: Anthony's Roads to Open Source
+title: Soutenance Thibaud Luro
 ---
 
 <h1 flex="~ col">
-<div text-2xl origin-top-left transition duration-500 :class="$clicks <= 0 ? 'scale-150' : 'op50'">
-  <span>Soutenance </span>
-  <span>Thibaud Luro </span>
+<div text-2xl origin-top-left transition duration-500 op50>
+  <span>Bonjour et Bienvenue </span>
 </div>
-<div mt1 text-4xl forward:delay-300 v-click>Comment la digitalisation peut-elle transformer les méthodes de travail dans l'industrie pour améliorer l'efficacité et la compétitivité ?</div>
+<div mt1 text-5xl>Soutenance de fin d'études</div>
 </h1>
 
 <div abs-br mx-10 my-11 flex="~ col gap-4 items-end" text-left>
@@ -18,14 +17,80 @@ title: Anthony's Roads to Open Source
 </div>
 
 <!--
-I am really appericated the chance I got that allows me to work on Open Source full-time. I'd like to say thank you for everyone that giving the support and opportunities and made this possible to me.
+Bonjour ...[click]
 
-It was always my dream to work in Open Source and build things that can help people around the world, attending awesome events like this, and meeting so many great people in the community.
+- Enoncer problématique
 
-I believe many of you are like me, are interested in doing open source. So today here, [click] I'd like to share some of my thoughts and experiences I got. Hopefully it can provide some inspirations for your own open source journey.
+- Position par rapport à la problématique ...
 
-Open source is quite a big topic that I can't really cover everything in one talk. [click] So I am trying to break it down and talk about different aspects of open source in each talk and make them a series.
-Today, it's going to be the Part 2 - [click] "The Progressive Path".
+- Opportunités ...
+
+-->
+
+---
+layout: center
+class: text-center
+---
+
+<div text-2xl transition duration-500 :class="$clicks <= 0 ? 'scale-150 translate-y-15' : 'op50'">
+  <span>Qui Suis-Je ?</span>
+</div>
+
+<div mt1 text-4xl forward:delay-300 v-click>Thibaud Luro</div>
+<div mt4 text-2xl forward:delay-300 op80 v-click>Étudiant en S10 à l'ESIEA Dax</div>
+<div mt1 text-2xl forward:delay-300 op80 v-click>Filière Ingénierie du logiciel</div>
+
+
+---
+title: Timeline horizontale
+---
+
+# Mon Parcours
+
+<div mt-8>
+  <div v-click="1">
+    <div op80>2019</div>
+    <div text-2xl>Baccaluaréat Scientifique</div>
+    <div op80>Spécialité Mathématiques option S.V.T</div>
+  </div>
+  <div mt4 text-right v-click="2">
+    <div op80>2019 - 2024</div>
+    <div text-2xl>ESIEA</div>
+    <div op80>Expert en ignénierie logiciel</div>
+  </div>
+  <div mt4 v-click="3">
+    <div op80>2022</div>
+    <div text-2xl>Stage Holis Consulting</div>
+    <div op80>6 mois en tant que développeur web full stack</div>
+  </div>
+  <div mt4 text-right v-click="4">
+    <div op80>2022 - 2024</div>
+    <div text-2xl>Alternance Holis Consulting</div>
+    <div op80>2 ans en tant que développeur web full stack</div>
+  </div>
+</div>
+
+---
+layout: cover
+title: Soutenance Thibaud Luro
+---
+
+<h1 flex="~ col">
+<div text-2xl origin-top-left transition duration-500 :class="$clicks <= 0 ? 'scale-150' : 'op50'">
+  <span>Problématique</span>
+</div>
+<div mt1 text-4xl forward:delay-300 v-click>Comment la digitalisation peut-elle transformer les méthodes de travail dans l'industrie pour améliorer l'efficacité et la compétitivité ?</div>
+</h1>
+
+<!--
+Bonjour ...[click]
+
+- Enoncer problématique
+
+- Position par rapport à la problématique ...
+
+- Opportunités ...
+
 -->
 
 
@@ -39,10 +104,8 @@ growY: 100
 <h1 important-text-5xl>Contexte</h1>
 
 <div text-white:50 text-2xl v-click>
-Mes expériences
-<span text-yellow2 italic v-mark.yellow.underline.delay300="2">professionnelles</span> 
-et 
-<span text-lime2 italic v-mark.lime.underline.delay700="2">personnelles</span>
+Mon expérience
+<span text-blue italic v-mark.blue.underline.delay300="2">professionnelle</span> 
 jusqu'à présent
 </div>
 
