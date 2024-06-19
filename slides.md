@@ -256,84 +256,100 @@ const msg = ref('Hello, Nuxt!')
 
 - Moderniser le milieu de l'inspection
 
-- Représentation digitale du site industriel
+- Eviter les erreurs humaines
 
-- Faciliter le cycle d'inspection
+- Automatiser les tâches chronophages
 
 </v-clicks>
 </div>
 
 
 <!--
-The previous episode was about the "Set Theory", where I have already given in a few conferences.
+PRÉCISER LES STATISTIQUES DERREURS ET DE TEMPS PERDU
+-->
 
-The topic was independent from today's, so no worries if you missed it.
 
-[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+---
+
+# Utilité des applications web
+
+<div v-click text-white:50 mt3 mb6>
+S'adressant à des <b text-white:75 font-bold>ingénieurs</b> travaillant dans des <b text-white:75 font-bold>bureaux</b>
+</div>
+
+<div flex="~ col gap-6">
+
+<div flex="~ gap-2 items-center">
+  <div flex="~ gap-2 items-center" v-click>
+    <div i-ph-circles-three-plus-duotone text-2xl />
+    <span font-bold>ALIS</span>
+  </div>
+  <span v-click op75 ml4>Modélisation d'un <code>site industriel</code> en 3D</span>
+</div>
+
+<div flex="~ gap-2 items-center">
+  <div flex="~ gap-2 items-center" v-click>
+    <div i-ph-signpost-duotone text-2xl />
+    <span font-bold>PREMIS DM</span>
+  </div>
+  <span v-click op75 ml4>Contrôle de <code>l'intégrité</code> et <code>cohérance</code> des données</span>
+</div>
+
+</div>
+
+<!--
+Then let's talk about one other aspect that Nuxt is good at - Progressive on features.
+
+So we know that Nuxt works with a bare minimal starter, be also we know a real-world application won't be that simple. We need a lot capability to accomplish various needs, and also a way for us to organize the codebase in an managable way.
+
+[click] Nuxt is the framework that can grows with your need!
+
+[click] To say, if you want to some components to separate and reuse your logic, [click] in Nuxt you can just create components files under the components directory, and they will be auto-discoverabale across your project.
 -->
 
 ---
 grow: right
 class: text-center
-clicks: 5
 title: What Makes a Good Tool?
 ---
 
 <div transition duration-800 :class="$clicks < 2 ? 'translate-y-45' : ''" relative>
 
-# What Makes a <span v-mark.linethrough.red.delay200="{at:1,roughness:6,seed:146}" transition inline-block :class="$clicks >= 1 ? 'op50' : ''"> Good</span> Tool?
+# Quelles sont les compétences <span v-mark.linethrough.red.delay200="{at:1,roughness:6,seed:146}" transition inline-block :class="$clicks >= 1 ? 'op50' : ''"> requises</span> ?
 
-<div font-hand bold absolute rotate--4 left-106 top-10 text-3xl text-lime1 delay-300 v-click>General & Useful</div>
+<div font-hand bold absolute rotate--4 left-150 top-10 text-3xl text-lime1 delay-300 v-click>Essentielles</div>
 
 </div>
 
-<div left-70 top-15 relative transition duration-400 forward:delay-600 v-click="2">
-  <img src="/balance-body.png" w-80 absolute left-0 top-0 />
-  <img
-    src="/balance-arm.png"
-    w-80 absolute left-0 top-0 transition duration-1000
-    class="origin-[50%_27%]"
-    :class="$clicks >= 5 ? 'animate-balance-shake' : ''"
-  />
-  <div transition duration-1000 :class="$clicks >= 5 ? 'animate-balance-move-left' : ''" >
-    <img src="/cost-of-learn.png" w-30 absolute left--35 top-20 duration-800 v-click="4" />
-    <img src="/balance-balls-left.png" w-80 absolute left-0 top-0 v-click="3" />
-    <img src="/balance-left.png" w-80 absolute left-0 top-0 />
-  </div>
-  <div transition duration-1000 :class="$clicks >= 5 ? 'animate-balance-move-right' : ''" >
-    <img src="/cost-of-doing.png" w-28 absolute left-85 top-34 duration-800 v-click="4" />
-    <img src="/balance-ball-right.png" w-80 absolute left-0 top-0 v-click="3" />
-    <img src="/balance-right.png" w-80 absolute left-0 top-0 />
-  </div>
+<div flex justify-between mt15>
+<div relative transition duration-400 forward:delay-600>
+<v-clicks>
+
+Humaines :
+
+- Gestion de projet
+
+- Communication
+- Gestion du temps
+</v-clicks>
+</div>
+
+<div relative transition duration-400 forward:delay-600>
+<v-clicks>
+
+  Techniques :
+
+- Framework d'application web (React)
+
+- API rest (Node + Express JS)
+- Base de données (SQL)
+</v-clicks>
+
+</div>
 </div>
 
 <!--
 So assume we want to build a new open source project, a tool for people to use. What would you consider to justify if the tool you going to build is a good one or not?
-
-Well, my answer is no, you can't not really tell that without being verified by the community - because there are so many factors that can affect if an open source project would work out or not.
-
-But also, I want to emphasize that in this context, "Good" is a relative term that deps on your expectation.
-It's totally ok to build a tool that solves your own problem and call it a day - it's a great tool that works for you anyway.
-Actually I have a plenty of such tools and I am happy about that even no one else is using them, but they get my job done at the end of the day, right?
-
-So let's revise our goal. Let's say we want to build a tool that can be beneficial to not only ourselves but also to more people, and probably the community could also help us to make the tool better for everyone.
-
-[click] So the question becomes how could we make a general and useful tool for ppl to use?.
-
-[click] I'd say every decision comes with a trade-off. When users consider if they want to use a tool, they would justify and cost and the benefits they can get from it.
-
-[click] So here we have a balance. If I gonna to put two most important factors on the balance, I'd pick "Cost of learning and using the tools" verse the "Cost of doing something oneself".
-
-[click] In order to make users willing to use our tool, I'd say that the "Cost of learning" should be much less than the "Cost of doing"
-[click] This has been my little go-to formula to pre-evaluate if idea I have is worthwhile.
-
-For example, let's say if we want to get a summary of 10 numbers. Would you look for a library to do that? Probably no, because we could do it with a single loop in 2 line of code - the cost of doing ourself is too low that we don't even consider getting a tool.
-
-But if we are going to do some calculus, I am certainly going to find a library to do it for me, because I basically forget everything I learned in my college XD.
-
-However, on the other hand, if the library we picked requires us to understand like 100 different configurations before being able to use it, uhumm, we probably going to find another library that might be easier.
-
-Thus we know that, when we are making tools, we have to think about those cases and find a good balance to make the tool worthwhile.
 -->
 
 ---
