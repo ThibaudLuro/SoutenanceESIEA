@@ -311,6 +311,7 @@ So we know that Nuxt works with a bare minimal starter, be also we know a real-w
 grow: right
 class: text-center
 title: What Makes a Good Tool?
+clicks: 12
 ---
 
 <div transition duration-800 :class="$clicks < 2 ? 'translate-y-45' : ''" relative>
@@ -321,16 +322,18 @@ title: What Makes a Good Tool?
 
 </div>
 
-<div flex justify-between mt15>
+<h4 text-left :class="$clicks >= 6 ? 'op50' : 'op0'">Classées par niveau de maîtrise croissant</h4>
+
+<div flex justify-between mt20>
 <div relative transition duration-400 forward:delay-600>
 <v-clicks>
 
 Humaines :
 
-- Gestion de projet
+- Communication <h4 :class="$clicks >=7 ? 'op50 block' : 'hidden'"> (Maîtrisé 60%) </h4>
 
-- Communication
-- Gestion du temps
+- Gestion de projet <h4 :class="$clicks >= 8 ? 'op50 block' : 'hidden'"> (Maîtrisé 90%) </h4>
+- Gestion du temps <h4 :class="$clicks >= 9 ? 'op50 block' : 'hidden'"> (Maîtrisé 95%) </h4>
 </v-clicks>
 </div>
 
@@ -339,10 +342,10 @@ Humaines :
 
   Techniques :
 
-- Framework d'application web (React)
+- Base de données (SQL) <h4 :class="$clicks >=10 ? 'op50 block' : 'hidden'"> (Maîtrisé 80%) </h4>
 
-- API rest (Node + Express JS)
-- Base de données (SQL)
+- Framework d'application web (React) <h4 :class="$clicks >=11 ? 'op50 block' : 'hidden'"> (Maîtrisé 85%) </h4>
+- API rest (Node + Express JS) <h4 :class="$clicks >=12 ? 'op50 block' : 'hidden'"> (Maîtrisé 90%) </h4>
 </v-clicks>
 
 </div>
@@ -351,6 +354,124 @@ Humaines :
 <!--
 So assume we want to build a new open source project, a tool for people to use. What would you consider to justify if the tool you going to build is a good one or not?
 -->
+
+
+---
+growX: 50
+growY: 130
+class: flex flex-col items-center justify-center
+title: Nuxt
+---
+
+<div text-center absolute left-1 right-1 transition-all duration-400 op75 ease-in-out :class="$clicks === 0 ? 'scale-250 bottom-50%' : 'bottom-5'">
+<span op50>https://</span>thibaudluro.com
+</div>
+
+<div i-logos-nuxt-icon text-5em mt--10 />
+<h1 v-click forward:delay-400 text-center important-text-5xl font-800 important-leading-1.1em>Plus de détails<br><span text-hex-00dc82>Sur mes compétences</span></h1>
+<div v-click text-xl op75>
+Et leur utilité dans le cadre de notre problématique
+</div>
+
+<!--
+And then, let's talk about Nuxt.
+
+If we go to nuxt.com, [click] we will see it's titled as "The Intuitive Vue Framework". And in the docs, it mentions [click] Nuxt's goal is "To make web development intuitive and performant with a great Developer Experience".
+
+And that brings us to the next section, "Progressive on Onboarding".
+-->
+
+
+---
+layout: center
+class: text-center
+growX: 50
+growY: 0
+---
+
+<h1 important-text-5xl>1/ Gestion du temps</h1>
+
+<h3 v-click text-white:50>Compétance humaine favorisant la <span text-lime font-bold v-mark.highlight.lime.op5.delay200="1" inline-block p3 mx--2>"Productivité"</span></h3>
+
+<!--
+There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
+
+It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
+
+[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
+
+I hope you enjoy and find it useful.
+-->
+
+
+---
+grow: right
+---
+
+<!--
+
+# Extensible Plugins System
+
+- Allows community to progressively enhance the tool and enrich the ecosystem -->
+
+# Gestion du temps
+
+<div flex="~ col gap-1" pt6>
+
+<div text-xl text-white:50 v-click>
+Progressive on <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />Onboarding</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Making it easy to understand and get started
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Progressive on <span flex="inline gap-1 items-center" text-purple translate-y-0.6><div i-ph-puzzle-piece-duotone />Integrations</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Fits in different scenarios, easy to adopt
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Progressive on <span flex="inline gap-1 items-center" text-yellow translate-y-0.6><div i-ph-lightbulb-filament-duotone />Features</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Starts minimal and grows with users
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Progressive on <span flex="inline gap-1 items-center" text-rose translate-y-0.6><div i-ph-warning-octagon-duotone />Breaking Changes</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Provide middle stages for migration
+  </div>
+</div>
+
+</div>
+
+<!--
+So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
+
+[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
+
+[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
+
+[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
+
+[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
+-->
+
 
 ---
 grow: bottom
