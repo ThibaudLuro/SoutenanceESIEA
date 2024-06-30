@@ -268,44 +268,55 @@ const msg = ref('Hello, Nuxt!')
 PRÉCISER LES STATISTIQUES DERREURS ET DE TEMPS PERDU
 -->
 
-
+---
+layout: center
+class: text-center
+growX: 50
+growY: 0
 ---
 
-# Utilité des applications web
+<h1 important-text-5xl>Utilité des solutions d'Holis</h1>
 
-<div v-click text-white:50 mt3 mb6>
-S'adressant à des <b text-white:75 font-bold>ingénieurs</b> travaillant dans des <b text-white:75 font-bold>bureaux</b>
-</div>
+<h3 v-click text-white:50>S'adressant à des <b text-white:75 font-bold>ingénieurs</b> travaillant depuis des <b text-white:75 font-bold>bureaux</b></h3>
 
-<div flex="~ col gap-6">
+<!--
+From my understand, I think the progressive of breaking changes is fundamentally allowing the co-existence.
 
-<div flex="~ gap-2 items-center">
-  <div flex="~ gap-2 items-center" v-click>
-    <div i-ph-circles-three-plus-duotone text-2xl />
-    <span font-bold>ALIS</span>
-  </div>
-  <span v-click op75 ml4>Modélisation d'un <code>site industriel</code> en 3D</span>
-</div>
+[click] When we make changes, we should provide the "middle stages" for ppl to take a rest on migration, allowing the coexistence of both legacy and new. So the work can be done progressively, and reduce the chance of breakages.
+-->
 
-<div flex="~ gap-2 items-center">
-  <div flex="~ gap-2 items-center" v-click>
-    <div i-ph-signpost-duotone text-2xl />
-    <span font-bold>PREMIS DM</span>
-  </div>
-  <span v-click op75 ml4>Contrôle de <code>l'intégrité</code> et <code>cohérance</code> des données</span>
-</div>
+---
+class: grid grid-cols-[640px_auto] gap-6 items-center justify-center
+grow: right
+---
 
+![](/nuxt-tutorial.png){.my--10}
+
+<div flex="~ col gap-4" text-right>
+<div text-4xl>Alis</div>
+<div op50 v-click>Modélisation d'un <code>site industriel</code> en 3D</div>
 </div>
 
 <!--
-Then let's talk about one other aspect that Nuxt is good at - Progressive on features.
+On top of the documentation site Nuxt has, in the past months we started to build an interactive tutorial playground. Some of you here probably have watched my live streaming on building it, thank you for working together with me btw.
 
-So we know that Nuxt works with a bare minimal starter, be also we know a real-world application won't be that simple. We need a lot capability to accomplish various needs, and also a way for us to organize the codebase in an managable way.
+So Nuxt Tutorial allows beginners to have a more linear, step-by-step learning experience. So they can start playing with Nuxt more easier without the need to install or setup.
 
-[click] Nuxt is the framework that can grows with your need!
-
-[click] To say, if you want to some components to separate and reuse your logic, [click] in Nuxt you can just create components files under the components directory, and they will be auto-discoverabale across your project.
+[click] This is another case that we are trying to get the progressive onboard experience even smoother.
 -->
+
+---
+class: grid grid-cols-[auto_640px] gap-4 items-center justify-center
+grow: left
+---
+
+<div flex="~ col gap-4">
+<div text-4xl>Premis DM</div>
+<div op50 v-click>Contrôle de <code>l'intégrité</code> et <code>cohérance</code> des données</div>
+</div>
+
+![](/nuxt-devtools.png){.my--10}
+
 
 ---
 grow: right
@@ -472,6 +483,217 @@ So, to recap today's topic, we have talked the progressiveness on different aspe
 [click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
 -->
 
+---
+layout: center
+class: text-center
+growX: 50
+growY: 0
+---
+
+<h1 important-text-5xl>Comptétences Techniques</h1>
+
+<h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
+
+<!--
+From my understand, I think the progressive of breaking changes is fundamentally allowing the co-existence.
+
+[click] When we make changes, we should provide the "middle stages" for ppl to take a rest on migration, allowing the coexistence of both legacy and new. So the work can be done progressively, and reduce the chance of breakages.
+-->
+
+
+---
+grow: right
+---
+
+# Les défis à relever
+
+<p>Afin de délivrer une application web <b>simple, efficace et utile</b></p>
+
+<div absolute left-29 top-35 w-80 transition duration-800 v-click="1" :class="$clicks <= 3 ? 'translate-x-50 translate-y-10 scale-150' : '' ">
+  <img src="/breaking-changes-floors.png" absolute inset-0 op75>
+  <div font-hand absolute left-0 top-39>Application fonctionnelle</div>
+  <div font-hand absolute right-0 top--6 transition duration-800>Application robuste</div>
+  <img src="/breaking-changes-stairs-right.png" absolute inset-0 v-click="3">
+  <img src="/breaking-changes-stairs-left.png" absolute inset-0 v-click="2">
+</div>
+
+<div absolute left-15 bottom-10 transition duration-800 :class="$clicks <= 3 ? 'translate-x-20 translate-y--13  scale-120' : '' ">
+<div flex="~ gap-2 items-center" text-yellow3 mt-8 mb2 text-xl v-click="2">
+  <div i-ph-escalator-down-duotone text-2xl scale-x--100 />
+  <span>Aspect FrontEnd</span>
+</div>
+
+<v-clicks at="5">
+
+- Garder une utilisation fluide et rapide pour l'utilisteur
+- Réussir à proposer une interface claire et simple
+
+</v-clicks>
+</div>
+
+<div absolute left-120 top-30 transition duration-800 :class="$clicks <= 3 ? 'translate-x-35 translate-y-35 scale-120' : '' ">
+<div flex="~ gap-2 items-center" text-blue mt-8 mb2 text-xl v-click="3">
+  <div i-ph-escalator-up-duotone text-2xl />
+  <span>Aspect BackEnd</span>
+</div>
+
+<v-clicks at="7">
+
+- Délivrer efficacement de grands volumes de données
+- Sécuriser l'accès aux données
+- Assurer la scalabilité
+
+</v-clicks>
+</div>
+
+<!--
+Progressive on Breaking Changes.
+
+I guess probably no one likes breaking changes. But somehow breaking changes are also quite important for the codebase to stay healthy and more maintainable in the long run. It help us to fix imperfectness of our previous design, with a better context we have today. While it's had to avoid introducing them, I believe maybe there would be some ways to make it the transition smoother and easier for the users to adopt.
+
+[click] Taking the experience we had in Vue and Vite, I see there are two major ways to achieve that. Here we bring back the graph we had before, refering to the jump between major versions 1 and 2.
+
+[click] One way of make breaking changes progressively is to do Forward Compatibility, [click] and the other is Backward Compatibility. Let me explain. [click]
+
+[click] Forward Compatibility is about to compatible with versions in the future, like to say if you know what's the new features you going to have in the next breaking change, you bring the features back to the current version in a non-breaking way.
+
+[click] In practice, often we will introduce flags such as `experimental` or `future` for users [click] to explicitly opt-in those changes if they want to try the new stuff, while the mainstream of the users can still be on the current version without breakages.
+
+[click] In Vue, we have the example of `@vue/composition-api` plugin back in Vue 2, which provide the capability of using Vue 3's composition API for Vue 2 apps before they can migrate to Vue 3.
+
+And later we have Vue v2.7, 2 years after Vue 3.0 has released, to have composition API support bake in, and align more with Vue 3's behaviour and feature sets.
+
+For Nuxt, we introduced Nuxt Bridge, to briging the changes betwen Nuxt 2 and 3.
+
+[click] Then it's take about Backforward compatibility, which you might heard this more often. It's about to be compactible with the previous versions.
+
+[click] A common practice is that we will mark a certain feature as deprecated, that will print warnings upon usage. And eventually removed later in the next major version or so. This also means it's better to do smaller and a bit more frequent major releases to make the migration easier.
+
+[click] Talking about examples, in Vue we have the compatibility build, that use Vue 3 as the fundation but with additional flags to simulate the legacy Vue 2 behaviour. That you can migrate once a feature. On Nuxt we have Nuxt Kit that allows module aurthor to build modules that would in both Nuxt 2, Bridge and Nuxt 3. etc.
+-->
+
+
+---
+layout: center
+class: text-center
+growX: 50
+growY: 0
+---
+
+<h1 important-text-5xl>2/ Développement FrontEnd React</h1>
+
+<h3 v-click text-white:50>Compétance technique permettant de réaliser une <span text-blue font-bold v-mark.highlight.blue.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
+
+<!--
+There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
+
+It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
+
+[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
+
+I hope you enjoy and find it useful.
+-->
+
+
+---
+grow: right
+---
+
+# FrontEnd React
+
+<div text-white:50 mt3 mb6>
+Les <b text-white:75 font-bold>défis</b> impliquant la mise en application de la compétence par rapport à notre problématique :
+</div>
+
+<div flex="~ col gap-4" pt6>
+
+<div text-xl text-white:50 v-click>
+Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Garder une utilistaion fluide et rapide pour l'utilisteur
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Compléxité du milieu de <span flex="inline gap-1 items-center" text-purple translate-y-0.6><div i-ph-puzzle-piece-duotone />l'industrie</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Réussir à proposer une interface claire et simple
+  </div>
+</div>
+
+</div>
+
+<!--
+So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
+
+[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
+
+[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
+
+[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
+
+[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
+-->
+
+---
+grow: bottom
+---
+
+# FrontEnd React
+
+<div text-white:50 mt5>
+Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<div flex="~ gap-2 items-center" v-click="2">
+  <div i-logos-npm-icon />
+  Mise en place de workers
+</div>
+<div flex="~ gap-2 items-center" v-click="3">
+  <div i-logos-vue />
+  Lazy loading
+</div>
+
+<div v-click="2">
+
+```json
+{
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0"
+  }
+}
+```
+
+</div>
+<div v-click="3">
+
+```vue
+<script setup>
+const msg = ref('Hello, Nuxt!')
+</script>
+
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+```
+
+</div>
+</div>
+
+<div mt10>
+<span text-2xl v-click="4">Addtionner</span> <span v-click="4" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+</div>
 
 ---
 grow: bottom
