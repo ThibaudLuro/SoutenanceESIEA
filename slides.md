@@ -317,6 +317,9 @@ grow: left
 
 ![](/nuxt-devtools.png){.my--10}
 
+<!--
+PRÉCISER QUE CEST LE SUJET DE MON ALTERNANCE ET QUE J'AI TRAVAILLÉ EN GRANDE AUTONOMIE DESSUS DONC CONCEPTION DE LARCHITECTURE ET CE GENRE DE CHOSES
+-->
 
 ---
 grow: right
@@ -390,97 +393,6 @@ And then, let's talk about Nuxt.
 If we go to nuxt.com, [click] we will see it's titled as "The Intuitive Vue Framework". And in the docs, it mentions [click] Nuxt's goal is "To make web development intuitive and performant with a great Developer Experience".
 
 And that brings us to the next section, "Progressive on Onboarding".
--->
-
-
----
-layout: center
-class: text-center
-growX: 50
-growY: 0
----
-
-<h1 important-text-5xl>1/ Gestion du temps</h1>
-
-<h3 v-click text-white:50>Compétance humaine favorisant la <span text-lime font-bold v-mark.highlight.lime.op5.delay200="1" inline-block p3 mx--2>"Productivité"</span></h3>
-
-<!--
-There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
-
-It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
-
-[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
-
-I hope you enjoy and find it useful.
--->
-
-
----
-grow: right
----
-
-<!--
-
-# Extensible Plugins System
-
-- Allows community to progressively enhance the tool and enrich the ecosystem -->
-
-# Gestion du temps
-
-<div flex="~ col gap-1" pt6>
-
-<div text-xl text-white:50 v-click>
-Progressive on <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />Onboarding</span>
-</div>
-<div flex="~ gap-2 items-center" mb3 ml37 v-click>
-  <div i-ph-arrow-bend-down-right-duotone op50 />
-  <div>
-    Making it easy to understand and get started
-  </div>
-</div>
-
-<div text-xl text-white:50 v-click>
-Progressive on <span flex="inline gap-1 items-center" text-purple translate-y-0.6><div i-ph-puzzle-piece-duotone />Integrations</span>
-</div>
-<div flex="~ gap-2 items-center" mb3 ml37 v-click>
-  <div i-ph-arrow-bend-down-right-duotone op50 />
-  <div>
-    Fits in different scenarios, easy to adopt
-  </div>
-</div>
-
-<div text-xl text-white:50 v-click>
-Progressive on <span flex="inline gap-1 items-center" text-yellow translate-y-0.6><div i-ph-lightbulb-filament-duotone />Features</span>
-</div>
-<div flex="~ gap-2 items-center" mb3 ml37 v-click>
-  <div i-ph-arrow-bend-down-right-duotone op50 />
-  <div>
-    Starts minimal and grows with users
-  </div>
-</div>
-
-<div text-xl text-white:50 v-click>
-Progressive on <span flex="inline gap-1 items-center" text-rose translate-y-0.6><div i-ph-warning-octagon-duotone />Breaking Changes</span>
-</div>
-<div flex="~ gap-2 items-center" mb3 ml37 v-click>
-  <div i-ph-arrow-bend-down-right-duotone op50 />
-  <div>
-    Provide middle stages for migration
-  </div>
-</div>
-
-</div>
-
-<!--
-So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
-
-[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
-
-[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
-
-[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
-
-[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
 -->
 
 ---
@@ -648,20 +560,50 @@ grow: bottom
 # FrontEnd React
 
 <div text-white:50 mt5>
-Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+Mise en application de la compétence pour de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
 </div>
 
-<div grid="~ cols-2 gap-x-2" mt5>
-<div flex="~ gap-2 items-center" v-click="2">
+<div grid="~ flex justify-center gap-x-2" mt5>
+<div flex="~ gap-2" v-click="1">
   <div i-logos-npm-icon />
   Mise en place de workers
 </div>
-<div flex="~ gap-2 items-center" v-click="3">
-  <div i-logos-vue />
-  Lazy loading
+
+<div v-click="1">
+
+  <img
+    src="/worker.jpg" w-150 transition duration-500 class="origin-[35%_50%]"
+  />
+
+</div>
 </div>
 
-<div v-click="2">
+<!-- <div mt10>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> les bonnes pratiques permet d'arriver à une solution robuste</span>
+</div> -->
+
+
+---
+grow: bottom
+---
+
+# FrontEnd React
+
+<div text-white:50 mt5>
+Mise en application de la compétence pour de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<div flex="~ gap-2 items-center" v-click="1">
+  <div i-logos-npm-icon />
+  Lazy Loading
+</div>
+<div flex="~ gap-2 items-center" v-click="2">
+  <div i-logos-vue />
+  Virtual Scrolling
+</div>
+
+<div v-click="1">
 
 ```json
 {
@@ -676,7 +618,7 @@ Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lim
 ```
 
 </div>
-<div v-click="3">
+<div v-click="2">
 
 ```vue
 <script setup>
@@ -692,19 +634,262 @@ const msg = ref('Hello, Nuxt!')
 </div>
 
 <div mt10>
-<span text-2xl v-click="4">Addtionner</span> <span v-click="4" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+</div>
+
+---
+layout: center
+class: text-center
+growX: 50
+growY: 0
+---
+
+<h1 important-text-5xl>3/ Développement BackEnd</h1>
+
+<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"La récupération et le stockage de Données"</span></h3>
+
+<!--
+There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
+
+It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
+
+[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
+
+I hope you enjoy and find it useful.
+-->
+
+
+---
+grow: right
+---
+
+# BackEnd
+
+<div text-white:50 mt3 mb6>
+Les <b text-white:75 font-bold>défis</b> impliquant la mise en application de la compétence par rapport à notre problématique :
+</div>
+
+<div flex="~ col gap-4" pt6>
+
+<div text-xl text-white:50 v-click>
+Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Délivrer efficacement ces données (rapidement et sans surcharge mémoire)
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Délivrer les données de manière <span flex="inline gap-1 items-center" text-purple translate-y-0.6><div i-ph-puzzle-piece-duotone />sécurisée</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    S'assurer de la provenance de requêtes
+  </div>
+</div>
+
+<div text-xl text-white:50 v-click>
+Anticiper en mettant l'accent sur la <span flex="inline gap-1 items-center" text-purple translate-y-0.6><div i-ph-puzzle-piece-duotone />scalabilité</span>
+</div>
+<div flex="~ gap-2 items-center" mb3 ml37 v-click>
+  <div i-ph-arrow-bend-down-right-duotone op50 />
+  <div>
+    Prendre du recul afin de prévoir de futurs problèmes
+  </div>
+</div>
+
+</div>
+
+<!--
+So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
+
+[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
+
+[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
+
+[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
+
+[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
+-->
+
+
+---
+grow: bottom
+---
+
+# BackEnd
+
+<div text-white:50 mt5>
+Mise en application de la compétence pour de forts volumes de <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />données</span>
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<div flex="~ gap-2 items-center" v-click="1">
+  <div i-logos-npm-icon />
+  Stockage en cache
+</div>
+<div flex="~ gap-2 items-center" v-click="2">
+  <div i-logos-vue />
+  Files d'attente
+</div>
+
+<div v-click="1">
+
+```json
+{
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0"
+  }
+}
+```
+
+</div>
+<div v-click="2">
+
+```vue
+<script setup>
+const msg = ref('Hello, Nuxt!')
+</script>
+
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+```
+
+</div>
+</div>
+
+<div mt10>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+</div>
+
+
+---
+grow: bottom
+---
+
+# BackEnd
+
+<div text-white:50 mt5>
+Mise en application de la compétence pour assurer la <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />sécurité</span>
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<div flex="~ gap-2 items-center" v-click="1">
+  <div i-logos-npm-icon />
+  Protocole JWT
+</div>
+<div flex="~ gap-2 items-center" v-click="2">
+  <div i-logos-vue />
+  Bouclier anti DDOS
+</div>
+
+<div v-click="1">
+
+```json
+{
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0"
+  }
+}
+```
+
+</div>
+<div v-click="2">
+
+```vue
+<script setup>
+const msg = ref('Hello, Nuxt!')
+</script>
+
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+```
+
+</div>
+</div>
+
+<div mt10>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+</div>
+
+
+---
+grow: bottom
+---
+
+# BackEnd
+
+<div text-white:50 mt5>
+Mise en application de la compétence pour assurer la <span flex="inline gap-1 items-center" text-lime translate-y-0.6><div i-ph-book-bookmark-duotone />scalabilité</span>
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<div flex="~ gap-2 items-center" v-click="1">
+  <div i-logos-npm-icon />
+  Files d'attentes
+</div>
+<div flex="~ gap-2 items-center" v-click="2">
+  <div i-logos-vue />
+  Indexation en base de données
+</div>
+
+<div v-click="1">
+
+```json
+{
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0"
+  }
+}
+```
+
+</div>
+<div v-click="2">
+
+```vue
+<script setup>
+const msg = ref('Hello, Nuxt!')
+</script>
+
+<template>
+  <h1>{{ msg }}</h1>
+</template>
+```
+
+</div>
+</div>
+
+<div mt10>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
 </div>
 
 ---
 grow: bottom
 ---
 
-# What is Progressive?
+# Mon projet professionel à court et moyen terme
 
 <div text-white:50 v-click="5">
 The <span v-mark.box.teal.delay400="5" text-teal mx1>"Stairs"</span> to make things easier to approach</div>
 
-<div absolute w-50 h-100 left-34 top-61 v-click>
+<div absolute w-50 h-100 left-34 top-70 v-click>
   <img
     src="/progressive-anthony-char.png" absolute w-50 left-0 top-0 transition duration-500 class="origin-[35%_50%]"
     :class="$clicks === 3 ? 'scale-x--100' : $clicks > 3 ? 'forward:delay-400' : ''"
@@ -713,7 +898,7 @@ The <span v-mark.box.teal.delay400="5" text-teal mx1>"Stairs"</span> to make thi
   <img src="/progressive-mark-bulb.png" absolute w-20 left-23 top--16 forward:delay-800 v-click="4" >
 </div>
 
-<div absolute w-230 right-0 top-5>
+<div absolute w-230 right-0 top-13>
   <img
     src="/progressive-floors.png" duration-400
     v-click
