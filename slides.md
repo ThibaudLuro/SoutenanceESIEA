@@ -880,21 +880,50 @@ const msg = ref('Hello, Nuxt!')
 <span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
 </div>
 
+
+
+---
+growHue: 60
+grow: right
+class: flex flex-col items-start justify-center
+---
+
+# Ma Légitimité
+
+<div mt5 v-click>
+<span>Gestion du projet Premis DM en <span v-mark.underline.purple="1">autonomie</span></span>
+</div>
+
+<div mt5 v-click>
+<span>Possible adoption de la solution au niveau <span v-mark.underline.red="2">international</span></span>
+</div>
+
+<!--
+Expliquer la confiance qu’à l’entreprise en moi pour me confier une application web à gérer en grande partie seul en m’occupant moi même des interactions clients 
+
+Je manage les personnes m'aidant sur le projet.
+
+Solution présentée à un géant de l'industrie et en discussion pour être adopté à un niveau mondial donc faire lien avec la problématique
+-->
+
 ---
 grow: bottom
 ---
 
 # Mon projet professionel à court et moyen terme
 
+<div text-white:50 v-click="3" :class="$clicks > 3 && 'hidden'">
+Envie de développer une activité parallèle</div>
+
 <div text-white:50 v-click="5">
-The <span v-mark.box.teal.delay400="5" text-teal mx1>"Stairs"</span> to make things easier to approach</div>
+Plusieurs <span v-mark.box.teal.delay400="5" text-teal mx1>"étapes"</span> avant de lancer ma microentreprise</div>
 
 <div absolute w-50 h-100 left-34 top-70 v-click>
   <img
-    src="/progressive-anthony-char.png" absolute w-50 left-0 top-0 transition duration-500 class="origin-[35%_50%]"
+    src="/me.png" absolute w-35 left-0 top-0 transition duration-500 class="origin-[35%_50%]"
     :class="$clicks === 3 ? 'scale-x--100' : $clicks > 3 ? 'forward:delay-400' : ''"
   />
-  <img src="/progressive-mark-question.png" absolute w-12 left--4 top--12 v-click="[3,4]">
+  <img src="/progressive-mark-question.png" absolute w-12 left--8 top--12 v-click="[3,4]">
   <img src="/progressive-mark-bulb.png" absolute w-20 left-23 top--16 forward:delay-800 v-click="4" >
 </div>
 
@@ -919,6 +948,143 @@ So from a progressive perspective, I think that's why stairs has been invented.
 [click] It allows me to take multiple smaller steps to going upward, and eventually achieve a certain goal that will be very hard to reach without it.
 
 [click] So here, my interpretation to progressive is that the "stairs" to make things easier to approach.
+-->
+
+
+---
+growX: 100
+growY: 80
+---
+
+### Mon projet professionel à court et moyen terme
+
+<div>
+<h1>CliffJumpSpots</h1>
+<img src="/SiteIndustrielNoBg.png" rounded-lg w-120 mt-10 />
+</div>
+
+<div absolute left-120 top-30 transition duration-800 translate-x-30 translate-y-15 scale-120>
+
+
+<div flex="~ col gap-4" text-right>
+<div text-2xl>Application Mobile Android</div>
+<div w-80 v-click>Répertorier des emplacements propices à la pratique du Cliff Jump</div>
+<div op50 w-80 v-click>Projet qui n'a jamais vu le jour</div>
+</div>
+
+</div>
+
+
+<!--
+The previous episode was about the "Set Theory", where I have already given in a few conferences.
+
+The topic was independent from today's, so no worries if you missed it.
+
+[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+-->
+
+---
+growX: 100
+growY: 80
+---
+
+### Mon projet professionel à court et moyen terme
+
+<div>
+<h1>YourNight</h1>
+</div>
+
+<div absolute left-0 top-30 transition duration-800 translate-x-25 translate-y-15 scale-120>
+
+<div flex="~ col gap-4" text-left>
+<div text-2xl>Application Mobile Android et IOS</div>
+<div w-80 v-click>Faciliter l'organisation de soirées entre amis</div>
+<div op50 w-80 v-click>Mauvaise stratégie Marketing</div>
+</div>
+
+</div>
+
+<img src="/SiteIndustrielNoBg.png" absolute left-120 rounded-lg w-120 mt-10 />
+
+
+
+<!--
+The previous episode was about the "Set Theory", where I have already given in a few conferences.
+
+The topic was independent from today's, so no worries if you missed it.
+
+[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+-->
+
+
+---
+growHue: 80
+growX: 100
+growY: 80
+---
+
+### Mon projet professionel à court et moyen terme
+
+<div>
+<h1>KarmineNews</h1>
+<img src="/SiteIndustrielNoBg.png" rounded-lg w-120 mt-10 />
+</div>
+
+<div absolute left-120 top-30 transition duration-800 translate-x-30 translate-y-15 scale-120>
+
+
+<div flex="~ col gap-4" text-right>
+<div text-2xl>Site Web</div>
+<div w-80 v-click>Toutes les actualités du club esport Karmine Corp</div>
+<div op50 w-80 v-click>Dans un unique but d'améliorer mes compétences en Marketing</div>
+</div>
+
+</div>
+
+
+<!--
+The previous episode was about the "Set Theory", where I have already given in a few conferences.
+
+The topic was independent from today's, so no worries if you missed it.
+
+[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+-->
+
+
+---
+growHue: 90
+grow: top-right
+class: flex items-center justify-center
+---
+
+<div relative>
+  <Tweet id="1797290752893947989" ml--45 mt-4 flex justify-center items-center transition class="important:[&_iframe]:w-80 important:[&_iframe]:rounded-13px" :class="$clicks > 1 ? 'op50 duration-600' : ''"/>
+
+  <Tweet id="1797322399953682889" absolute top-15 left-5 class="important:[&_iframe]:w-100 important:[&_iframe]:rounded-13px important:[&_iframe]:shadow-xl" v-click />
+</div>
+
+<!--
+[click] Project monorepo mention that they upgraded Vite 2 to Vite 3 with only bumpping version, everything keeps working as-is.
+
+[click] Kilian even describe Vite as the "Most painless full-version upgrade of a build system ever" on the release of Vite 5.
+
+And many more comments like this. Thank you and we are glad to hear those stories.
+-->
+
+
+---
+layout: intro
+class: text-center pb-5
+growX: 50
+growY: 120
+---
+
+# Merci de m'avoir écouté
+
+Avez-vous des questions ?
+
+<!--
+That's all for my talk, thank you, and happy hacking!
 -->
 
 ---
@@ -1298,26 +1464,6 @@ Vite is on major version 5 right now. And during the past 4 years, we basically 
 Some of you probably have been through that periods where we do major releases. The last one with Vite 5 and was released on November last year.
 
 It's not a secret that Vite's major releases have very smooth migration paths. We received many comments mentions about their successful migrations cases.
--->
-
----
-growHue: 90
-grow: top-right
-class: flex items-center justify-center
----
-
-<div relative>
-  <Tweet id="1547266714466861056" ml--45 mt--4 flex justify-center items-center transition class="important:[&_iframe]:w-230 important:[&_iframe]:rounded-13px" :class="$clicks > 1 ? 'op50 duration-600' : ''" v-click />
-
-  <Tweet id="1725177397949944126" absolute top-15 left-5 class="important:[&_iframe]:w-200 important:[&_iframe]:rounded-13px important:[&_iframe]:shadow-xl" v-click />
-</div>
-
-<!--
-[click] Project monorepo mention that they upgraded Vite 2 to Vite 3 with only bumpping version, everything keeps working as-is.
-
-[click] Kilian even describe Vite as the "Most painless full-version upgrade of a build system ever" on the release of Vite 5.
-
-And many more comments like this. Thank you and we are glad to hear those stories.
 -->
 
 ---
