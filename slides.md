@@ -119,7 +119,7 @@ growY: 100
 
 <div text-white:50 text-2xl v-click>
 Mon expérience
-<span text-blue italic v-mark.blue.underline.delay300="2">professionnelle</span> 
+<span text-lightblue italic v-mark.blue.underline.delay300="1">professionnelle</span> 
 jusqu'à présent
 </div>
 
@@ -134,33 +134,32 @@ grow: right
 title: Make things easier!
 ---
 
-# Expérience <span font-hand text-blue scale-110 ml3 inline-block>Professionnelle</span>
+# Expérience <span font-hand text-lightblue scale-110 ml3 inline-block>Professionnelle</span>
 
-<div flex="~ gap-2 items-center" text-indigo mt-15 v-click>
-  <div i-ph-hammer-duotone text-2xl />
+<div flex="~ gap-2 items-center" text-lightblue mt-15 v-click>
   <span>HOLIS CONSULTING</span>
 </div>
 
 <div grid="~ cols-[max-content_min-content_auto] items-center gap-6" py8 px3>
-  <div flex="~ gap-2 items-center" text-blue relative v-click>
+  <div flex="~ gap-2 items-center" relative v-click>
     <div w-35px h-45px border="l b gray/30" left-0 bottom-15px absolute />
-    <div i-ph-magnifying-glass-duotone text-2xl ml-12/>
+    <div text-purple i-ph-magnifying-glass-duotone text-2xl ml-12/>
     <span>Création</span>
   </div>
   <div i-ph-arrow-right-duotone op50 v-click />
   <div v-after>Février 2020 À Pau en Nouvelle Aquitaine</div>
 
-  <div flex="~ gap-2 items-center" text-lime relative v-click>
+  <div flex="~ gap-2 items-center" relative v-click>
     <div w-35px h-56px border="l b gray/30" left-0 bottom-15px absolute />
-    <div i-ph-book-bookmark-duotone text-2xl ml-12/>
+    <div text-green i-ph-book-bookmark-duotone text-2xl ml-12/>
     <span>Effectif</span>
   </div>
   <div i-ph-arrow-right-duotone op50 v-click />
   <div v-after>Quinzaine de salariés</div>
 
-  <div flex="~ gap-2 items-center" text-amber relative v-click>
+  <div flex="~ gap-2 items-center" relative v-click>
     <div w-35px h-56px border="l b gray/30" left-0 bottom-15px absolute />
-    <div i-ph-currency-circle-dollar-duotone text-2xl ml-12/>
+    <div text-amber i-ph-currency-circle-dollar-duotone text-2xl ml-12/>
     <span>Chiffre d'affaires</span>
   </div>
   <div i-ph-arrow-right-duotone op50 v-click />
@@ -276,7 +275,7 @@ class: grid grid-cols-[640px_auto] gap-6 items-center justify-center
 grow: right
 ---
 
-![](/nuxt-tutorial.png){.my--10}
+<img src="/alis.png" class="border border-2 border-gray-300 shadow-lg" alt="Premis DM Image">
 
 <div flex="~ col gap-4" text-right>
 <div text-4xl>Alis</div>
@@ -299,7 +298,7 @@ grow: left
 <div op50 v-click>Contrôle de <code>l'intégrité</code> et <code>cohérance</code> des données</div>
 </div>
 
-![](/nuxt-devtools.png){.my--10}
+<img src="/premis.png" class="border border-2 border-gray-300 shadow-lg" alt="Premis DM Image">
 
 <!--
 Intégrité des données : Cette turbine est-elle liée à la bonne section du site industriel
@@ -385,8 +384,8 @@ title: Nuxt
 </div>
 
 <div i-logos-nuxt-icon text-5em mt--10 />
-<h1 v-click forward:delay-400 text-center important-text-5xl font-800 important-leading-1.1em>Plus de détails<br><span text-hex-00dc82>Sur mes compétences</span></h1>
-<div v-click text-xl op75>
+<h1 v-click forward:delay-400 text-center important-text-5xl font-600 important-leading-1.1em>Plus de détails<br><span>Sur mes compétences</span></h1>
+<div v-click text-xl op50>
 Et leur utilité dans le cadre de notre problématique
 </div>
 
@@ -401,7 +400,7 @@ growX: 50
 growY: 0
 ---
 
-<h1 important-text-5xl>Comptétences Techniques</h1>
+<h1 important-text-5xl>Comptétences <span font-bold>Techniques</span></h1>
 
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
@@ -477,7 +476,7 @@ growY: 0
 
 <h1 important-text-5xl>1/ Développement FrontEnd React</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant de réaliser une <span text-blue font-bold v-mark.highlight.blue.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
+<h3 v-click text-white:50>Compétance technique permettant de réaliser une <span text-yellow font-bold v-mark.highlight.yellox.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
 
 <!--
 
@@ -671,7 +670,7 @@ growY: 0
 
 <h1 important-text-5xl>2/ Développement BackEnd</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
+<h3 v-click text-white:50>Compétance technique permettant <span text-blue font-bold v-mark.highlight.blue.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
 
 <!--
 
@@ -969,7 +968,7 @@ growY: 80
 
 <div>
 <h1>CliffJumpSpots</h1>
-<img src="/SiteIndustrielNoBg.png" rounded-lg w-120 mt-10 />
+<img src="/cliff.webp" rounded-lg w-90 mt-10 />
 </div>
 
 <div absolute left-120 top-30 transition duration-800 translate-x-30 translate-y-15 scale-120>
@@ -991,6 +990,7 @@ Envie de pousser le projet au bout mais abandon par un manque de motivation
 -->
 
 ---
+growHue: 80
 growX: 100
 growY: 80
 ---
@@ -1011,7 +1011,7 @@ growY: 80
 
 </div>
 
-<img src="/SiteIndustrielNoBg.png" absolute left-120 rounded-lg w-120 mt-10 />
+<img src="/yournight.png" absolute left-170 rounded-lg w-60 mt--10 />
 
 
 
@@ -1027,7 +1027,6 @@ Loupé sur la stratégie marketing car moi même j'ai douté de la perspicacité
 
 
 ---
-growHue: 80
 growX: 100
 growY: 80
 ---
@@ -1036,7 +1035,7 @@ growY: 80
 
 <div>
 <h1>KarmineNews</h1>
-<img src="/SiteIndustrielNoBg.png" rounded-lg w-120 mt-10 />
+<img src="/karminenews.png" rounded-lg w-120 mt-10 />
 </div>
 
 <div absolute left-120 top-30 transition duration-800 translate-x-30 translate-y-15 scale-120>
@@ -1059,7 +1058,6 @@ Juste une volonté d'améliorer mes compétences en marketing et de faire un sit
 
 
 ---
-growHue: 90
 grow: top-right
 class: flex items-center justify-center
 ---
