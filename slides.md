@@ -396,6 +396,7 @@ Et leur utilité dans le cadre de notre problématique
 ---
 layout: center
 class: text-center
+growHue: 150
 growX: 50
 growY: 0
 ---
@@ -410,6 +411,7 @@ S'attarder sur les compétences techniques car c'est celles qui vont nous permet
 
 
 ---
+growHue: 150
 grow: right
 ---
 
@@ -470,6 +472,7 @@ Travail avec de très forts volumes de données (données de tout un site indust
 ---
 layout: center
 class: text-center
+growHue: 200
 growX: 50
 growY: 0
 ---
@@ -485,6 +488,7 @@ growY: 0
 
 ---
 grow: right
+growHue: 200
 ---
 
 # FrontEnd React
@@ -523,6 +527,7 @@ Compléxité du milieu de <span flex="inline gap-1 items-center" text-purple tra
 
 ---
 grow: bottom
+growHue: 200
 ---
 
 # FrontEnd React
@@ -576,6 +581,7 @@ Cependant, lors de tests avec des volumes de données importants, nous avons ét
 
 ---
 grow: bottom
+growHue: 200
 ---
 
 # FrontEnd React
@@ -664,13 +670,14 @@ En résumé, le virtual scrolling permet de gérer et de visualiser de grandes q
 ---
 layout: center
 class: text-center
+growHue: 250
 growX: 50
 growY: 0
 ---
 
 <h1 important-text-5xl>2/ Développement BackEnd</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant <span text-blue font-bold v-mark.highlight.blue.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
+<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
 
 <!--
 
@@ -679,6 +686,7 @@ growY: 0
 
 ---
 grow: right
+growHue: 250
 ---
 
 # BackEnd
@@ -728,6 +736,7 @@ Anticiper en mettant l'accent sur la <span flex="inline gap-1 items-center" text
 
 ---
 grow: bottom
+growHue: 250
 ---
 
 # BackEnd
@@ -783,6 +792,7 @@ const msg = ref('Hello, Nuxt!')
 
 ---
 grow: bottom
+growHue: 250
 ---
 
 # BackEnd
@@ -838,6 +848,7 @@ const msg = ref('Hello, Nuxt!')
 
 ---
 grow: bottom
+growHue: 250
 ---
 
 # BackEnd
