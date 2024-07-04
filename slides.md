@@ -17,13 +17,6 @@ title: Soutenance Thibaud Luro
 </div>
 
 <!--
-Bonjour ...[click]
-
-- Enoncer problématique
-
-- Position par rapport à la problématique ...
-
-- Opportunités ...
 
 -->
 
@@ -70,6 +63,15 @@ title: Timeline horizontale
   </div>
 </div>
 
+
+<!--
+Préciser que j'ai choisi l'esiea pour sa pédagogie et mon attrait déjà présent pour l'informatique.
+
+Préciser que j'ai rejoint Holis pour le côté jeune entreprise et tout à faire.
+
+Ca m'a plu et l'entreprise était contente de moi donc je suis resté en alternance
+-->
+
 ---
 layout: cover
 title: Soutenance Thibaud Luro
@@ -83,13 +85,25 @@ title: Soutenance Thibaud Luro
 </h1>
 
 <!--
-Bonjour ...[click]
 
-- Enoncer problématique
+J'ai choisi cette problématique car parfaite adéquation avec mon expérience professionnelle jusqu'à présent
 
-- Position par rapport à la problématique ...
+Une grande partie de ce qui m'attire en informatique est le fait de savoir que sa réalisation est utile à quelqu'un
 
-- Opportunités ...
+Aujourd'hui le monde de l'industrie peine encore à se digitaliser (beaucoup de tâches manuelles et chronophages qui pourraient être automatisées)
+
+Les entreprises ayant transitionné vers des solutions digitales ont observé une augmentation de leur productivité de 15 à 25 %. D'aprés une étude de la société McKinsey & Company, nommée "The future of manufacturing: How digital technology is transforming the industry"
+
+Un des outils vendu par la société pour laquelle je travaille a augmenté de 30% la productivité (étude menée par le client de la solution)
+
+Opportunités pour moi :
+- Me permet de travailler sur des projets techniques et innovants
+
+Société : 
+- Une industrie plus efficace peut mener à des produits de meilleure qualité à des coûts réduits, rendant ainsi les biens et services plus accessibles.
+
+Planète : 
+- Les technologies digitales peuvent contribuer à une production plus durable en optimisant l'utilisation des ressources, en réduisant les déchets et en minimisant l'empreinte carbone des processus industriels.
 
 -->
 
@@ -110,15 +124,7 @@ jusqu'à présent
 </div>
 
 <!--
-So first, before we diving into today's topic, let's discuss a bit what we are expecting when working in open source.
 
-We know that most of the open source projects we use daily are tools, but have you ever think about the question that, what defines a tool?
-
-[click] The definition should be pretty straightforward and maybe you already have the answer in your mind.
-
-[click] In my interpretation, a tool should help you get things done faster and/or easier, at least one of them.
-
-I guess no one wants to use a tool that makes things slower and more complicated, right?
 -->
 
 
@@ -150,7 +156,7 @@ title: Make things easier!
     <span>Effectif</span>
   </div>
   <div i-ph-arrow-right-duotone op50 v-click />
-  <div v-after>Vingtaine de salariés</div>
+  <div v-after>Quinzaine de salariés</div>
 
   <div flex="~ gap-2 items-center" text-amber relative v-click>
     <div w-35px h-56px border="l b gray/30" left-0 bottom-15px absolute />
@@ -158,25 +164,11 @@ title: Make things easier!
     <span>Chiffre d'affaires</span>
   </div>
   <div i-ph-arrow-right-duotone op50 v-click />
-  <div v-after>2 Millions d'euros en 2023</div>
+  <div v-after>1.5 Millions d'euros en 2023</div>
 </div>
 
 <!--
-So, here we know that we should probably reduce the "Cost of using a tool" to make it easier for ppl to pick up.
 
-[click] From my point of view, the cost of a tool is composed by the following factors.
-
-[click] The first one is the "Cost of Discovering". [click] It's about how commonly for people to realize they need to find a tool for a certain task. It also means the tool should be well-described so that people can easily get what the tool is for with one or two sentences.
-
-[click] Then we have the "Cost of Learning". [click] This is a particularly important one in my opinion. It's about how easy for people to understand and get started with the tool. As the tool is supposed to be used and to make the actual work easier, we certainly don't want users to struggle on learning it for too long before they can be benefited from it.
-
-[click] And then we have the "Price". The cost of the tools itself. [click] We are lucky that in Open Source, the majority of the tools are free to use. Thanks to every maintainer and contributor behind the scenes and making so much awesome tools for everyone to use. And of course, on the other hand, if the tool is not free, this is definitely one of the factors that users would consider on choosing.
-
-[click] And the last one is the "Cost of Adoption". [click] Like how to install and integrate into ones project, how extensible the tool is for potential future needs, how migration would cost, etc.
-
-All those factors are introduced because of the use af an external tool. In the end, we want to see the cost of the tool to be paid off by the benefits it provides.
-
-We know that the complexity of things might transfer from one place to another, but not going to magically disappear. If we are solving a complex problem, it would be honestly hard to prevent the tool from getting complex too. For that, what I learned from the popular open source tools out there is something called "Progressive".
 -->
 
 ---
@@ -206,11 +198,7 @@ growY: 80
 
 
 <!--
-The previous episode was about the "Set Theory", where I have already given in a few conferences.
 
-The topic was independent from today's, so no worries if you missed it.
-
-[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
 -->
 
 ---
@@ -265,7 +253,7 @@ const msg = ref('Hello, Nuxt!')
 
 
 <!--
-PRÉCISER LES STATISTIQUES DERREURS ET DE TEMPS PERDU
+
 -->
 
 ---
@@ -280,9 +268,7 @@ growY: 0
 <h3 v-click text-white:50>S'adressant à des <b text-white:75 font-bold>ingénieurs</b> travaillant depuis des <b text-white:75 font-bold>bureaux</b></h3>
 
 <!--
-From my understand, I think the progressive of breaking changes is fundamentally allowing the co-existence.
 
-[click] When we make changes, we should provide the "middle stages" for ppl to take a rest on migration, allowing the coexistence of both legacy and new. So the work can be done progressively, and reduce the chance of breakages.
 -->
 
 ---
@@ -298,11 +284,9 @@ grow: right
 </div>
 
 <!--
-On top of the documentation site Nuxt has, in the past months we started to build an interactive tutorial playground. Some of you here probably have watched my live streaming on building it, thank you for working together with me btw.
+Utile pour réunion avant entrée sur site afin de localiser les éléments nécessitant un contrôle
 
-So Nuxt Tutorial allows beginners to have a more linear, step-by-step learning experience. So they can start playing with Nuxt more easier without the need to install or setup.
-
-[click] This is another case that we are trying to get the progressive onboard experience even smoother.
+Suivi de l'état de santé de son site industriel de manière visuel en répertoriant les différents dommages aux éléments 3D
 -->
 
 ---
@@ -318,7 +302,11 @@ grow: left
 ![](/nuxt-devtools.png){.my--10}
 
 <!--
-PRÉCISER QUE CEST LE SUJET DE MON ALTERNANCE ET QUE J'AI TRAVAILLÉ EN GRANDE AUTONOMIE DESSUS DONC CONCEPTION DE LARCHITECTURE ET CE GENRE DE CHOSES
+Intégrité des données : Cette turbine est-elle liée à la bonne section du site industriel
+
+Cohérence : L'état d'un tuyau ne peut pas être déclaré comme bon lorsqu'il a été vérifié pour la dernière fois il y a 5 ans
+
+Sujet de mon alternance donc références à cette application web au cours de la présentation
 -->
 
 ---
@@ -366,7 +354,22 @@ Humaines :
 </div>
 
 <!--
-So assume we want to build a new open source project, a tool for people to use. What would you consider to justify if the tool you going to build is a good one or not?
+Communication entre membres de l'équipe mais aussi avec les parties prenantes (client qui est interne à l'entreprise)
+
+Gestion de projet pour assurer un suivi de l'avancement et garder des objectifs clairs et atteignables
+
+Gestion du temps pour utiliser son temps de travail efficacement
+
+Base de données pour stocker les données des applications
+
+Framework pour réaliser la partie avec laquelle l'utilisateur va directement intéragir (partie qui a besoin des données)
+
+Backend : Partie qui délivre les données (transit entre la base de données et le front)
+
+Compétenance la plus faible aujourd'hui pour moi c'est communication, je ne fais pas toujours le premier pas meme si je m'oblige de plus en plus à le faire
+
+Mes compétencenes les plus fortes : Gestion du temps et Api
+
 -->
 
 
@@ -388,11 +391,7 @@ Et leur utilité dans le cadre de notre problématique
 </div>
 
 <!--
-And then, let's talk about Nuxt.
 
-If we go to nuxt.com, [click] we will see it's titled as "The Intuitive Vue Framework". And in the docs, it mentions [click] Nuxt's goal is "To make web development intuitive and performant with a great Developer Experience".
-
-And that brings us to the next section, "Progressive on Onboarding".
 -->
 
 ---
@@ -407,9 +406,7 @@ growY: 0
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
 <!--
-From my understand, I think the progressive of breaking changes is fundamentally allowing the co-existence.
-
-[click] When we make changes, we should provide the "middle stages" for ppl to take a rest on migration, allowing the coexistence of both legacy and new. So the work can be done progressively, and reduce the chance of breakages.
+S'attarder sur les compétences techniques car c'est celles qui vont nous permettre de répondre au mieux à la problématique
 -->
 
 
@@ -459,29 +456,15 @@ grow: right
 </div>
 
 <!--
-Progressive on Breaking Changes.
+Commencé à travailler sur Premis DM vers la fin de mon stage.
 
-I guess probably no one likes breaking changes. But somehow breaking changes are also quite important for the codebase to stay healthy and more maintainable in the long run. It help us to fix imperfectness of our previous design, with a better context we have today. While it's had to avoid introducing them, I believe maybe there would be some ways to make it the transition smoother and easier for the users to adopt.
+C'est moi qui suit à l'origine du projet et qui ai pensé en partie son architecture. 
 
-[click] Taking the experience we had in Vue and Vite, I see there are two major ways to achieve that. Here we bring back the graph we had before, refering to the jump between major versions 1 and 2.
+De base volonté d'un projet fonctionnel (MVP) montrable à des potentiels clients pour juger l'intérêt
 
-[click] One way of make breaking changes progressively is to do Forward Compatibility, [click] and the other is Backward Compatibility. Let me explain. [click]
+Le défi a été de transitionner d'un projet fonctionnel à robuste (sujet toujours d'actualité)
 
-[click] Forward Compatibility is about to compatible with versions in the future, like to say if you know what's the new features you going to have in the next breaking change, you bring the features back to the current version in a non-breaking way.
-
-[click] In practice, often we will introduce flags such as `experimental` or `future` for users [click] to explicitly opt-in those changes if they want to try the new stuff, while the mainstream of the users can still be on the current version without breakages.
-
-[click] In Vue, we have the example of `@vue/composition-api` plugin back in Vue 2, which provide the capability of using Vue 3's composition API for Vue 2 apps before they can migrate to Vue 3.
-
-And later we have Vue v2.7, 2 years after Vue 3.0 has released, to have composition API support bake in, and align more with Vue 3's behaviour and feature sets.
-
-For Nuxt, we introduced Nuxt Bridge, to briging the changes betwen Nuxt 2 and 3.
-
-[click] Then it's take about Backforward compatibility, which you might heard this more often. It's about to be compactible with the previous versions.
-
-[click] A common practice is that we will mark a certain feature as deprecated, that will print warnings upon usage. And eventually removed later in the next major version or so. This also means it's better to do smaller and a bit more frequent major releases to make the migration easier.
-
-[click] Talking about examples, in Vue we have the compatibility build, that use Vue 3 as the fundation but with additional flags to simulate the legacy Vue 2 behaviour. That you can migrate once a feature. On Nuxt we have Nuxt Kit that allows module aurthor to build modules that would in both Nuxt 2, Bridge and Nuxt 3. etc.
+Travail avec de très forts volumes de données (données de tout un site industriel)
 -->
 
 
@@ -492,18 +475,12 @@ growX: 50
 growY: 0
 ---
 
-<h1 important-text-5xl>2/ Développement FrontEnd React</h1>
+<h1 important-text-5xl>1/ Développement FrontEnd React</h1>
 
 <h3 v-click text-white:50>Compétance technique permettant de réaliser une <span text-blue font-bold v-mark.highlight.blue.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
 
 <!--
-There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
 
-It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
-
-[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
-
-I hope you enjoy and find it useful.
 -->
 
 
@@ -542,15 +519,7 @@ Compléxité du milieu de <span flex="inline gap-1 items-center" text-purple tra
 </div>
 
 <!--
-So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
 
-[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
-
-[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
-
-[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
-
-[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
 -->
 
 ---
@@ -578,8 +547,31 @@ Mise en application de la compétence pour de forts volumes de <span flex="inlin
 </div>
 </div>
 
-<!-- <div mt10>
-<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> les bonnes pratiques permet d'arriver à une solution robuste</span>
+<!--
+La Boulangerie et le Boulanger
+Dans ta boulangerie, il y a le boulanger principal (ton application principale) qui s'occupe de la plupart des tâches : prendre les commandes, faire le pain, servir les clients, etc.
+
+Les Heures de Pointe
+Parfois, il y a tellement de clients qu'il est difficile pour le boulanger de tout gérer à la fois. Il doit prendre les commandes, préparer les pains, cuire les pains, et tout ça en même temps. Cela peut devenir très lent et les clients doivent attendre longtemps.
+
+Le Worker
+Pour aider le boulanger, tu engages un assistant (le worker). Cet assistant peut faire des tâches spécifiques de manière autonome. Par exemple, tu pourrais lui demander de seulement pétrir la pâte ou de surveiller les pains dans le four. Ainsi, le boulanger peut se concentrer sur les tâches plus importantes ou prendre plus de commandes.
+
+Fonctionnement
+Tâche Assignée : Quand il y a une tâche spécifique (comme pétrir la pâte), le boulanger dit à l'assistant de le faire.
+Travail en Parallèle : L'assistant travaille en parallèle avec le boulanger. Pendant que l'assistant pétrit la pâte, le boulanger peut préparer d'autres commandes ou faire autre chose.
+Efficacité : Cela rend l'ensemble de la boulangerie plus efficace car les tâches ne s'empilent pas toutes sur le boulanger principal. Les clients sont servis plus rapidement.
+Application Web
+Dans le contexte d'une application web, un worker est un peu comme cet assistant. Quand ton application a des tâches lourdes ou chronophages (comme générer un rapport complexe, traiter une grande quantité de données, etc.), elle peut les déléguer à un worker. Le worker s'occupe de ces tâches en arrière-plan pendant que l'application principale continue de répondre rapidement aux utilisateurs.
+
+En résumé, un worker aide à répartir le travail pour que ton application (ou ta boulangerie) fonctionne de manière plus fluide et efficace, même quand il y a beaucoup de choses à faire en même temps.
+
+Implémentation : 
+Enormes volumes de données pour pouvoir fonctionner
+j’ai dû mettre en place des solutions moins communes que les implémentations classiques de React. 
+Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage l’implémentation de Workers qu’il a tout de suite acquiescée. 
+L'implémentation de Workers est arrivée comme une solution ingénieuse à un problème de performance critique que nous avons rencontré lors du développement de Premis. En travaillant sur ce projet au sein de Holis Consulting, le traitement et l'analyse de données massives, extraites de fichiers Excel, étaient au cœur de l'application. 
+Cependant, lors de tests avec des volumes de données importants, nous avons été confrontés à un obstacle majeur : le front-end de l'application, malgré une conception initialement robuste, la mémoire était rapidement saturé et se retrouvait en état de crash en raison de surcharge. L'adoption de cette approche a marqué un tournant dans le développement de Premis. En déléguant le lourd traitement des données des fichiers Excel à des Workers, j’ai non seulement résolu le problème de surcharge de mémoire mais j’ai également amélioré significativement les performances de l'application. L’application était à ce moment-là fonctionnelle et performante pour le volume de données que nous connaissions.
 </div> -->
 
 
@@ -637,6 +629,39 @@ const msg = ref('Hello, Nuxt!')
 <span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
 </div>
 
+<!-- 
+La Fête et le Buffet
+Pour cette fête, tu prévois un énorme buffet avec plein de plats différents. Mais si tu sors tous les plats en même temps, cela prendrait beaucoup de place sur la table, et certains plats pourraient même refroidir ou se détériorer avant que les invités ne les mangent.
+
+Le Lazy Loading
+Au lieu de tout sortir d'un coup, tu décides de sortir les plats au fur et à mesure que les invités en ont besoin. Par exemple, tu ne sors les desserts que lorsque les invités ont fini de manger les plats principaux. C'est ce qu'on appelle le "lazy loading".
+
+Fonctionnement
+Initialement : Quand les invités arrivent, tu sors seulement quelques plats principaux, pas tout le buffet.
+Au Fur et à Mesure : Quand tu vois qu’un plat est presque vide, tu sors un autre plat du frigo ou du four pour le remplacer. Pareil pour les desserts, tu attends que les invités demandent avant de les sortir.
+Efficacité : Cela permet de garder la table bien organisée et de s'assurer que les plats sont toujours frais quand les invités les prennent.
+Application Web
+Dans une application web, le lazy loading fonctionne de manière similaire. Plutôt que de charger tout le contenu d'une page web en une seule fois (ce qui peut être long et ralentir le site), l'application charge d'abord le contenu essentiel. Ensuite, au fur et à mesure que l'utilisateur fait défiler la page ou demande plus de contenu, l'application charge les éléments supplémentaires à ce moment-là.
+
+En résumé, le lazy loading consiste à charger les choses seulement quand on en a besoin, ce qui permet de gagner du temps et de la place, que ce soit pour une fête avec un buffet ou une page web avec beaucoup de contenu.
+
+
+La Bibliothèque et les Livres
+Ta bibliothèque est immense, avec des milliers de livres. Si tu devais tous les sortir et les poser sur le sol pour les voir en même temps, cela prendrait beaucoup de place et deviendrait très difficile à gérer.
+
+Le Virtual Scrolling
+Au lieu de tout sortir, tu utilises un système intelligent. Quand tu te promènes dans la bibliothèque, les livres apparaissent seulement quand tu en as besoin. Par exemple, quand tu arrives dans une nouvelle allée, seulement les livres de cette allée apparaissent, et les livres des allées précédentes disparaissent.
+
+Fonctionnement
+Initialement : Tu ne vois qu'une petite partie des livres, ceux qui sont juste devant toi.
+Défilement : À mesure que tu te déplaces dans la bibliothèque, les livres que tu quittes disparaissent et ceux que tu approches apparaissent.
+Efficacité : Cela te permet de voir et de gérer uniquement les livres nécessaires à un moment donné sans être submergé par tous les livres à la fois.
+Application Web
+Dans une application web, le virtual scrolling fonctionne de manière similaire. Imagine que tu navigues sur une longue liste de contacts ou d'articles. Plutôt que de charger et d'afficher toute la liste en une seule fois (ce qui pourrait ralentir ton ordinateur ou ton téléphone), l'application ne charge et n'affiche qu'une portion de la liste, celle que tu vois à l'écran. Au fur et à mesure que tu fais défiler vers le bas, les anciens éléments disparaissent et les nouveaux éléments apparaissent.
+
+En résumé, le virtual scrolling permet de gérer et de visualiser de grandes quantités d'informations de manière efficace, en ne montrant que ce qui est nécessaire au fur et à mesure, que ce soit dans une immense bibliothèque ou sur une longue page web.
+ -->
+
 ---
 layout: center
 class: text-center
@@ -644,18 +669,12 @@ growX: 50
 growY: 0
 ---
 
-<h1 important-text-5xl>3/ Développement BackEnd</h1>
+<h1 important-text-5xl>2/ Développement BackEnd</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"La récupération et le stockage de Données"</span></h3>
+<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
 
 <!--
-There are much more aspects of progressiveness that we didn't have time to talk about today, but my goal today is to bring this idea of "Progressive Path" to you.
 
-It might not seems to be a very cool or unusual stuff that people would get excited about, but I think it is playing a very important role to our daily software development. And we should think about it more often when building stuff, not only for open source projects, but also probably also for your products, or the ways of doing stuff in general.
-
-[click] To finish my talk with one sentence, I'd say "To provide the progressive paths, is to enable users the capability of 'Divide and Conquer' towards the goals they have".
-
-I hope you enjoy and find it useful.
 -->
 
 
@@ -704,15 +723,7 @@ Anticiper en mettant l'accent sur la <span flex="inline gap-1 items-center" text
 </div>
 
 <!--
-So, to recap today's topic, we have talked the progressiveness on different aspects of building a tool.
 
-[click] The first is about progressive on onboarding, [click] we should make the tool easy to learn and understand, for more people to start benefited from the tool we build.
-
-[click] And then we talked about the progressive on integration [click] for our tool to cover different scenarios, and easy to adopt.
-
-[click] Then we have the progressive on features, it's pretty common that we want to make our very powerful but that could be overhelming for the users to starts with. [click] So, taking the progressive approach would allows us to start minimal and grow with the users.
-
-[click] And then finally, we have progressive on breaking changes, [click] to provide middle stages to make migrations step by step.
 -->
 
 
@@ -822,7 +833,7 @@ const msg = ref('Hello, Nuxt!')
 </div>
 
 <div mt10>
-<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution sécurisée</span>
 </div>
 
 
@@ -877,7 +888,7 @@ const msg = ref('Hello, Nuxt!')
 </div>
 
 <div mt10>
-<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+<span text-2xl v-click="3">Addtionner</span> <span v-click="3" op50> ces bonnes pratiques permet d'arriver à une solution scalable</span>
 </div>
 
 
@@ -904,6 +915,8 @@ Expliquer la confiance qu’à l’entreprise en moi pour me confier une applica
 Je manage les personnes m'aidant sur le projet.
 
 Solution présentée à un géant de l'industrie et en discussion pour être adopté à un niveau mondial donc faire lien avec la problématique
+
+Afin transformer les méthodes de travail de cette entreprise industrielle pour améliorer l'efficacité et la compétitivité
 -->
 
 ---
@@ -937,17 +950,13 @@ Plusieurs <span v-mark.box.teal.delay400="5" text-teal mx1>"étapes"</span> avan
 </div>
 
 <!--
-So, after this long intro, finally we are back to our topic today - what's is Progressive?
+Envie de continuer mon activité au sein d'holis consulting
 
-I think progressive a self is pretty self explaining. But here let's take a quick example with illustrations:
+Passion pour le développement et une fascination des possibilités ouvertes par la profession
 
-[click] So this is me, [click] and I am trying to get from the first floor to the second. But unfortunately, I hit a wall. The only way to get to there is to jump through the wall. But I'm not a very sports person, so I'm not able to jump that high. In case I might end giving up and turn back around. [click] That's a shame because I failed to accomplish what I aiming for because it's too hard.
+Aujourd'hui utilisation de mon temps libre dans cette direction en espérant un jour développer une activité le plus loin possible
 
-So from a progressive perspective, I think that's why stairs has been invented.
-
-[click] It allows me to take multiple smaller steps to going upward, and eventually achieve a certain goal that will be very hard to reach without it.
-
-[click] So here, my interpretation to progressive is that the "stairs" to make things easier to approach.
+Plusieurs projets à mon actif mais présentation des 3 les plus pertinents
 -->
 
 
@@ -969,18 +978,16 @@ growY: 80
 <div flex="~ col gap-4" text-right>
 <div text-2xl>Application Mobile Android</div>
 <div w-80 v-click>Répertorier des emplacements propices à la pratique du Cliff Jump</div>
-<div op50 w-80 v-click>Projet qui n'a jamais vu le jour</div>
+<div op50 w-80 v-click>Projet qui n'a pas eu de conclusion</div>
 </div>
 
 </div>
 
 
 <!--
-The previous episode was about the "Set Theory", where I have already given in a few conferences.
+Développé pendant le semestre où on apprenait android
 
-The topic was independent from today's, so no worries if you missed it.
-
-[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+Envie de pousser le projet au bout mais abandon par un manque de motivation
 -->
 
 ---
@@ -1009,11 +1016,13 @@ growY: 80
 
 
 <!--
-The previous episode was about the "Set Theory", where I have already given in a few conferences.
+Pendant l'été d'il y a deux ans
 
-The topic was independent from today's, so no worries if you missed it.
+8 mois de dev
 
-[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+Vouloir sortir un projet trop fini presque parfait sans avoir réellement testé un intérêt
+
+Loupé sur la stratégie marketing car moi même j'ai douté de la perspicacité du projet
 -->
 
 
@@ -1043,11 +1052,9 @@ growY: 80
 
 
 <!--
-The previous episode was about the "Set Theory", where I have already given in a few conferences.
+Site web communautaire sans business plan derrière (pas de rémunération)
 
-The topic was independent from today's, so no worries if you missed it.
-
-[click] And in case you are interested, you can find the recordings on my website antfu.me afterwards.
+Juste une volonté d'améliorer mes compétences en marketing et de faire un site pouvant servir à des gens et moi le premier
 -->
 
 
@@ -1064,11 +1071,11 @@ class: flex items-center justify-center
 </div>
 
 <!--
-[click] Project monorepo mention that they upgraded Vite 2 to Vite 3 with only bumpping version, everything keeps working as-is.
+Stratégie marketing via twitter car plateforme populaire auprès de l'audience visée par la solution
 
-[click] Kilian even describe Vite as the "Most painless full-version upgrade of a build system ever" on the release of Vite 5.
+illustration de l'intérêt de la communauté
 
-And many more comments like this. Thank you and we are glad to hear those stories.
+Encourageant pour la suite et confiant de mes capacités à arriver au bout d'un projet plus concret
 -->
 
 
