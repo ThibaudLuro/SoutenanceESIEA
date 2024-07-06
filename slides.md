@@ -73,6 +73,7 @@ Ca m'a plu et l'entreprise était contente de moi donc je suis resté en alterna
 -->
 
 ---
+growHue: 40
 layout: cover
 title: Soutenance Thibaud Luro
 ---
@@ -81,20 +82,66 @@ title: Soutenance Thibaud Luro
 <div text-2xl origin-top-left transition duration-500 :class="$clicks <= 0 ? 'scale-150' : 'op50'">
   <span>Problématique</span>
 </div>
-<div mt1 text-4xl forward:delay-300 v-click>Comment la digitalisation peut-elle transformer les méthodes de travail dans l'industrie pour améliorer l'efficacité et la compétitivité ?</div>
+<div mt1 text-4xl forward:delay-300 v-click>Comment la digitalisation peut-elle transformer les méthodes de travail dans l'industrie pour améliorer l'efficacité ?</div>
 </h1>
 
 <!--
-
-J'ai choisi cette problématique car parfaite adéquation avec mon expérience professionnelle jusqu'à présent
-
-Une grande partie de ce qui m'attire en informatique est le fait de savoir que sa réalisation est utile à quelqu'un
 
 Aujourd'hui le monde de l'industrie peine encore à se digitaliser (beaucoup de tâches manuelles et chronophages qui pourraient être automatisées)
 
 Les entreprises ayant transitionné vers des solutions digitales ont observé une augmentation de leur productivité de 15 à 25 %. D'aprés une étude de la société McKinsey & Company, nommée "The future of manufacturing: How digital technology is transforming the industry"
 
 Un des outils vendu par la société pour laquelle je travaille a augmenté de 30% la productivité (étude menée par le client de la solution)
+
+-->
+
+
+---
+growHue: 40
+grow: right
+class: flex flex-col items-start justify-center
+---
+
+## Ma position par rapport à la problématique
+
+<div mt5 v-click>
+  S'inscrit dans mon expérience professionnelle
+</div>
+
+<div mt4 relative>
+<span v-click>Utilité des réalisations</span>
+</div>
+
+<!--
+
+J'ai choisi cette problématique car parfaite adéquation avec mon expérience professionnelle jusqu'à présent
+
+Une grande partie de ce qui m'attire en informatique est le fait de savoir que sa réalisation est utile à quelqu'un
+-->
+
+
+
+---
+growHue: 40
+grow: right
+class: flex flex-col items-start justify-center
+---
+
+## Oppotunités découlant de la problématique
+
+<div mt5 v-click>
+<span font-bold text-blue>Pour moi</span> : Travail sur projets innovants et techniques
+</div>
+
+<div mt4 v-click>
+<span font-bold text-yellow>Pour la société</span> : Services à moindre coût
+</div>
+
+<div mt4 v-click>
+<span font-bold text-green>Pour la planète</span> : Production plus durable
+</div>
+
+<!--
 
 Opportunités pour moi :
 - Me permet de travailler sur des projets techniques et innovants
@@ -104,9 +151,7 @@ Société :
 
 Planète : 
 - Les technologies digitales peuvent contribuer à une production plus durable en optimisant l'utilisation des ressources, en réduisant les déchets et en minimisant l'empreinte carbone des processus industriels.
-
 -->
-
 
 ---
 layout: center
@@ -175,7 +220,38 @@ growX: 100
 growY: 80
 ---
 
-### SECTEURS D'ACTIVITÉ
+### Secteurs d'Activité
+
+<div>
+<h1>Principaux secteurs</h1>
+
+<div flex justify-around mt35>
+
+<div v-click flex="~ col items-center gap-2">
+<div text-6xl text-yellow i-ph-hard-hat-fill />
+<h3 w-40 text-center>Ingénierie d'inspection</h3>
+</div>
+
+<div v-click flex="~ col items-center gap-4">
+<div text-6xl text-purple i-ph-desktop-fill />
+<h3 w-60 text-center>Développement de solution digitales</h3>
+</div>
+
+</div>
+
+</div>
+
+
+<!--
+
+-->
+
+---
+growX: 100
+growY: 80
+---
+
+### Secteurs d'Activité
 
 <div>
 <h1>Ingénierie d'inspection</h1>
@@ -205,7 +281,7 @@ growX: 100
 growY: 80
 ---
 
-### SECTEURS D'ACTIVITÉ
+### Secteurs d'Activité
 
 <div>
 <h1>Développement de solutions digitale</h1>
@@ -319,34 +395,37 @@ clicks: 12
 
 # Quelles sont les compétences <span v-mark.linethrough.red.delay200="{at:1,roughness:6,seed:146}" transition inline-block :class="$clicks >= 1 ? 'op50' : ''"> requises</span> ?
 
-<div font-hand bold absolute rotate--4 left-150 top-10 text-3xl text-lime1 delay-300 v-click>Essentielles</div>
+<div font-hand bold absolute rotate--4 left-150 top-10 text-3xl text-purple2 delay-300 v-click>Essentielles</div>
 
 </div>
 
-<h4 text-left :class="$clicks >= 6 ? 'op50' : 'op0'">Classées par niveau de maîtrise croissant</h4>
+<h4 text-left transition duration-400 absolute bottom-5 :class="$clicks >= 6 ? 'op70' : 'op0'">Classées par niveau de maîtrise croissant</h4>
 
-<div flex justify-between mt20>
+<div flex justify-around gap-20 mt25>
 <div relative transition duration-400 forward:delay-600>
 <v-clicks>
 
-Humaines :
+<h3 font-semibold>Humaines</h3>
 
-- Communication <h4 :class="$clicks >=7 ? 'op50 block' : 'hidden'"> (Maîtrisé 60%) </h4>
-
-- Gestion de projet <h4 :class="$clicks >= 8 ? 'op50 block' : 'hidden'"> (Maîtrisé 90%) </h4>
-- Gestion du temps <h4 :class="$clicks >= 9 ? 'op50 block' : 'hidden'"> (Maîtrisé 95%) </h4>
+<div flex="~ col gap-4" mt4>
+<div>Communication <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 60% </h4></div>
+<div>Gestion de projet <h4 transition duration-400 :class="$clicks >= 8 ? 'op50 block' : 'op0'"> Maîtrisé 90% </h4></div>
+<div>Gestion du temps <h4 transition duration-400 :class="$clicks >= 9 ? 'op50 block' : 'op0'"> Maîtrisé 95% </h4></div>
+</div>
 </v-clicks>
 </div>
 
 <div relative transition duration-400 forward:delay-600>
 <v-clicks>
 
-  Techniques :
+<h3 font-semibold>Techniques</h3>
 
-- Base de données (SQL) <h4 :class="$clicks >=10 ? 'op50 block' : 'hidden'"> (Maîtrisé 80%) </h4>
+<div flex="~ col gap-4" mt4>
+<div>Base de données (SQL) <h4 transition duration-400 :class="$clicks >=10 ? 'op50 block' : 'op0'"> Maîtrisé 80% </h4></div>
 
-- Framework d'application web (React) <h4 :class="$clicks >=11 ? 'op50 block' : 'hidden'"> (Maîtrisé 85%) </h4>
-- API rest (Node + Express JS) <h4 :class="$clicks >=12 ? 'op50 block' : 'hidden'"> (Maîtrisé 90%) </h4>
+<div>Framework d'application web (React) <h4 transition duration-400 :class="$clicks >=11 ? 'op50 block' : 'op0'"> Maîtrisé 85% </h4></div>
+<div>API rest (Node + Express JS) <h4 transition duration-400 :class="$clicks >=12 ? 'op50 block' : 'op0'"> Maîtrisé 90% </h4></div>
+</div>
 </v-clicks>
 
 </div>
@@ -379,15 +458,7 @@ class: flex flex-col items-center justify-center
 title: Nuxt
 ---
 
-<div text-center absolute left-1 right-1 transition-all duration-400 op75 ease-in-out :class="$clicks === 0 ? 'scale-250 bottom-50%' : 'bottom-5'">
-<span op50>https://</span>thibaudluro.com
-</div>
-
-<div i-logos-nuxt-icon text-5em mt--10 />
-<h1 v-click forward:delay-400 text-center important-text-5xl font-600 important-leading-1.1em>Plus de détails<br><span>Sur mes compétences</span></h1>
-<div v-click text-xl op50>
-Et leur utilité dans le cadre de notre problématique
-</div>
+<h1 forward:delay-400 text-center important-text-5xl font-600 important-leading-1.1em>Plus de détails<br><span>Sur mes compétences</span></h1>
 
 <!--
 
@@ -479,7 +550,7 @@ growY: 0
 
 <h1 important-text-5xl>1/ Développement FrontEnd React</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant de réaliser une <span text-yellow font-bold v-mark.highlight.yellox.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
+<h3 v-click text-white:50>Compétence technique permettant de réaliser une <span text-yellow font-bold v-mark.highlight.yellox.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
 
 <!--
 
@@ -677,7 +748,7 @@ growY: 0
 
 <h1 important-text-5xl>2/ Développement BackEnd</h1>
 
-<h3 v-click text-white:50>Compétance technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
+<h3 v-click text-white:50>Compétence technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
 
 <!--
 
@@ -997,7 +1068,7 @@ growY: 80
 <!--
 Développé pendant le semestre où on apprenait android
 
-Envie de pousser le projet au bout mais abandon par un manque de motivation
+Envie de pousser le projet au bout mais jamais été sur les store car objectifs flous avec mon ami (commanditaire) et jamais réussi à se mettre daccord
 -->
 
 ---
