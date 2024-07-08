@@ -625,7 +625,36 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant de <span text-lime font-bold v-mark.highlight.lime.op5.delay200="1" inline-block p3 mx--2>"transmettre"</span> efficacement des informations</h3>
 
 <!--
-Importance de communiquer avec les autres gestionnaires de projet pour ne pas refaire des choses déjà faite, pour exprimer les difficultés ou clarifier des tâches à accomplir.
+Essentielle dans une équipe de développement pour avancer dans la même direction
+-->
+
+---
+grow: bottom
+growHue: 220
+---
+
+# Communication
+
+<div text-white:50 mt5 mb5>
+L'importance de la communication dans les projets
+</div>
+
+<v-clicks>
+  Échanges avec le pôle développement de la société
+
+- Partage des difficultés et des succès
+
+- Eviter de refaire des fonctionnatlités déjà développées
+</v-clicks>
+
+<!--
+Même si nous ne travaillons pas sur les même projets il est essentiel de communicquer entre nous
+
+En échangeant régulièrement, on peut identifier les obstacles potentiels tôt et trouver des solutions ensemble.
+
+De plus la plupart des projets sont étroitements liés de par le secteur visé qui est similaire donc parfois fonctionnalités ou comportements similaires dans les différentes solutions donc éviter de refaire quelque chose de déjà fait
+
+Cela permet également de célébrer les succès et de maintenir une bonne dynamique de groupe.
 -->
 
 ---
