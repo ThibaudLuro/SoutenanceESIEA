@@ -482,7 +482,7 @@ growY: 0
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
 <!--
-S'attarder sur les compétences techniques car c'est celles qui vont nous permettre de répondre au mieux à la problématique
+Souhait de survoler mes compétences humaines car ce sont elles indirectement qui permettent de répondre à la problématique de par les enjeux qu'elles couvrent et ce qu'on va voir de suite.
 -->
 
 ---
@@ -498,8 +498,49 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant de <span text-pink font-bold v-mark.highlight.pink.op5.delay200="1" inline-block p3 mx--2>"mener à bien"</span> un projet</h3>
 
 <!--
+Compétence centrale dans mon profil.
 
+C'est celle qui permet de garder le projet dans la bonne direction.
+
+Développement dans les temps et en adéqauation avec le besoin utilisateur
 -->
+
+---
+grow: bottom
+growHue: 120
+---
+
+# Gestion de projet
+
+<div text-white:50 mt5 mb5>
+Fonctionnement pour le projet PremisDM
+</div>
+
+<v-clicks>
+Fonctionnement en sprints
+
+- Réunions hebdomadaires
+
+- Utilisation de l'outil Notion
+
+</v-clicks>
+
+<img src="/notion.png" absolute bottom-0 left-0 ml-20 w-200 transition duration-400 :class="$clicks >= 1 ? 'op100' : 'op0'">
+
+<!--
+Pour PremiDM nous sommes passés par plusieurs systèmes de gestion de projet de par le statu de startup mais aujourd'hui fonctionnement en sprint (expliquer)
+
+Réunions hebdomadaires sur l'état de l'avancement et le reste à faire. Partage des difficultés si besoin d'aide
+
+Là où c'est intéressant c'est que Gestion seul du projet
+
+C'est aujourd'hui moi qui transforme le besoin client en fonctionnalité et qui en estime de temps nécessaire pour transofmrer ce besoin en foncitonnalité
+
+Nous utilisons l'outil Notion un outil complet permettant la prise de notes comme la possibilité de faire suivre des tâches dans un tableau d'avancement.
+
+C'est un outil que j'utilise meme dans mes projets personnels pour la définition d'objectifs et la prise de note en général.
+</div> -->
+
 
 ---
 layout: center
@@ -514,8 +555,62 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant d' <span text-orange font-bold v-mark.highlight.orange.op5.delay200="1" inline-block p3 mx--2>"optimiser"</span> ses ressources</h3>
 
 <!--
-
+Pour pouvoir respecter les délais des tâches qui a été définie dans la partie gestion de projet et éviter des situations de stress, une bonne gestion de son temps de travail permet d'être le plus efficace possible tout en faisant attention à garder du recul sur ce qui est fait sans avancer comme on dit avec la tête dans le guidon.
 -->
+
+---
+grow: bottom
+growHue: 170
+---
+
+# Gestion du temps
+
+<div text-white:50 mt5>
+Comment je gère mon temps de travail
+</div>
+
+<div grid="~ cols-2 gap-x-2" mt5>
+<h3 v-click="1">
+  Définition d'objectifs quotidiens 
+</h3>
+<h3 v-click="2">
+  Méthode Pomodoro
+</h3>
+
+<div v-click="1" text-sm>
+
+Vision claire des tâches à accomplir
+
+- Alignés avec les priorités
+
+</div>
+
+<div v-click="2" text-sm>
+
+Technique d'organisation du temps de travail en cycle
+
+- 25 minutes de temps de travail pour 5 mintutes de pause
+
+</div>
+</div>
+
+<!-- 
+
+Définition d'objectifs quotidier ca m'aide à rester concentré et motivé
+
+Place les tâches les plus complexes en haut du panier pour avoir le plus d'énergie possible
+
+Cela m'a permis de répondre aux attentes de mes supérieurs en entreprise mais aussi de les dépasser en livrants des résultats dans des délais serrés
+
+
+Méthode pomodoro je l'utilise plus dans un contexte persoonnel pour la réalisation de mes projets
+
+Permet de me concentrer intensément sans distractions qui sont plus présentes chez moi qu'en entreprise
+
+Travailler de manière structurée et efficace pendant une période X de temps
+
+Avec un rythme sain favorisant les pauses régulières.
+ -->
 
 ---
 layout: center
@@ -530,9 +625,8 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant de <span text-lime font-bold v-mark.highlight.lime.op5.delay200="1" inline-block p3 mx--2>"transmettre"</span> efficacement des informations</h3>
 
 <!--
-
+Importance de communiquer avec les autres gestionnaires de projet pour ne pas refaire des choses déjà faite, pour exprimer les difficultés ou clarifier des tâches à accomplir.
 -->
-
 
 ---
 layout: center
@@ -547,6 +641,8 @@ growY: 0
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
 <!--
+Avec pour pilier les compétences humaines présentées précedemment, l'associtaion des compétences techniques va nous permettre de répondre à notre problématique
+
 S'attarder sur les compétences techniques car c'est celles qui vont nous permettre de répondre au mieux à la problématique
 -->
 
