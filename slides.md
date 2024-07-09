@@ -374,7 +374,7 @@ grow: left
 
 <div flex="~ col gap-4">
 <div text-4xl>Premis DM</div>
-<div op50 v-click>Contrôle de <code>l'intégrité</code> et <code>cohérance</code> des données</div>
+<div op50 v-click>Contrôle du <code>format</code> et <code>cohérance</code> des données</div>
 </div>
 
 <img src="/premis.png" class="border border-2 border-gray-300 shadow-lg" alt="Premis DM Image">
@@ -1087,7 +1087,7 @@ Programme informatique utilise de la mémoire vive pour fonctionner et quand les
 
 Problème qu'on a eu sur notre première version fonctionnelle à l'arrivée de volumes de données plus conséquents que ce que l'on connaissait
 
-Rappel des checks de cohérence et d'intégrité
+Rappel des checks de cohérence et du format
 
 Algorithme côté bakckend qui s'en charge et qui fait les checks ligne de données par ligne de données
 
@@ -1378,6 +1378,10 @@ Je manage les personnes m'aidant sur le projet.
 Solution présentée à un géant de l'industrie et en discussion pour être adopté à un niveau mondial donc faire lien avec la problématique
 
 Afin transformer les méthodes de travail de cette entreprise industrielle pour améliorer l'efficacité et la compétitivité
+
+Permettant une éventuelle baisse de prix profitable à la société
+
+Et une production plus durable pour la planète
 -->
 
 ---
