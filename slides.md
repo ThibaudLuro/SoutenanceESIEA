@@ -424,10 +424,10 @@ clicks: 7
 <h3 font-semibold>Techniques</h3>
 
 <div flex="~ col gap-4" mt4>
-<div>Base de données (SQL) <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 80% </h4></div>
+<div>Base de données (PotsgreSQL) <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 80% </h4></div>
 
 <div>Framework d'application web (React) <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 85% </h4></div>
-<div>API rest (Node + Express JS) <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 90% </h4></div>
+<div>API rest (Express JS) <h4 transition duration-400 :class="$clicks >=7 ? 'op50 block' : 'op0'"> Maîtrisé 90% </h4></div>
 </div>
 </v-clicks>
 
