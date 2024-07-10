@@ -828,11 +828,12 @@ Problème de surcharge mémoire
 </div>
 
 <!--
-1/ Expliquer fonctionnalité Excel
 
-2/ Besoin de mémoire vive qui sature si trop énergivore
+1/ Problème à l'arrivée de données test par client
 
-3/ Problème à l'arrivée de données test par client
+2/ Expliquer fonctionnalité Excel
+
+3/ Besoin de mémoire vive qui sature si trop énergivore
 
 4/ Du réfléchir à des solutions moins communes que les implémentations classiques de React.
 
