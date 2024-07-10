@@ -937,6 +937,10 @@ Mise en place de workers
 
 </v-clicks>
 
+<div absolute bottom-10>
+<span v-click="2" op50> Temps de process divisé par </span><span text-2xl v-click="2">4</span> 
+</div>
+
 <!--
 1/ Corrigeant le problème de mémoire et fluidifiant grandement le processus.
 
