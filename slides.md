@@ -212,7 +212,7 @@ title: Make things easier!
 </div>
 
 <!--
-
+- Pau secteur stratégique
 -->
 
 ---
@@ -277,7 +277,9 @@ growY: 80
 
 2/ Représentation site indus
 
-3/ Exemple durée de vie tuyau
+3/ Exemple contrôle technique durée de vie tuyau
+
+4/ Pau parce que Lacq, Centre scientifique et tech de total, Téréga
 -->
 
 ---
@@ -637,6 +639,41 @@ growY: 0
 1/ Essentielle dans une équipe de développement pour avancer dans la même direction
 -->
 
+
+---
+grow: bottom
+growHue: 220
+---
+
+# Communication
+
+<div text-white:50 mt5 mb5>
+L'importance de la communication dans les projets
+</div>
+
+<v-clicks>
+  Composition du pôle développement de la société
+
+- 3 Apprentis (En alternance)
+
+- 2 Juniors (Moins d'1 an en CDI)
+
+- 3 Séniors (Plus de 10 d'expérience)
+</v-clicks>
+
+<div absolute bottom-10>
+<span v-click="2" op50> Nous sommes </span><span text-2xl v-click="2">5 à Superviser</span> <span v-click="2" op50> un projet </span>
+</div>
+
+<!--
+1/ Présentation parle beaucoup de moi (principe de l'exercice) volonté de parler des gens qui m'entourent au quotidien
+
+2/ Enoncer les valeurs
+
+3/ 5 à superviser notre propre projet
+-->
+
+
 ---
 grow: bottom
 growHue: 220
@@ -958,7 +995,7 @@ Chargement des données au scroll (dans une liste de données ou tableau)
 </div>
 
 <div absolute bottom-10>
-<span text-2xl v-click="5">Addtionner</span> <span v-click="5" op50> ces bonnes pratiques permet d'arriver à une solution robuste</span>
+<span v-click="5" op50> Affichage pouvant prendre 1 minute se compte maintenant en </span><span text-2xl v-click="5">Millisecondes</span> 
 </div>
 
 <!-- 
@@ -1137,6 +1174,10 @@ Gestion des données par lots
 </div>
 </div>
 
+<div absolute bottom-10>
+<span v-click="3" op50> Problème mémoire </span><span text-2xl v-click="3">Corrigé</span> <span v-click="3" op50> mais lenteur</span> 
+</div> 
+
 <!-- 
 
 1/ Beaucoup de requetes similaires
@@ -1218,7 +1259,7 @@ Mise en application de la compétence pour assurer la <span flex="inline gap-1 i
   Sanitisation des Données 
 </h3>
 <h3 v-click="2">
-  Bouclier anti DDOS
+  Bouclier anti DOS
 </h3>
 
 <div v-click="1" text-sm>
@@ -1238,6 +1279,10 @@ Limiter le débit
 </div>
 </div>
 
+<div absolute bottom-10>
+<span v-click="3" op50> Problèmes de sécurité classiques </span><span text-2xl v-click="3">Résolus</span> 
+</div>
+
 <!-- 
 1/ Contrer le problème avec Sanitisation
 
@@ -1251,11 +1296,13 @@ Limiter le débit
 
 3/ Plus de problème de sécurité classique et connu
 
-4/ Protection DDOS sur un projet personnel avec pour projet de le ramener dans PREMIS
+4/ Protection DOS sur un projet personnel avec pour projet de le ramener dans PREMIS
 
-5/ Grand nombre de requêtes dans un laps de temps très court qui provoque extinction du système
+5/ Expliquer différence avec DDOS et implémenter DDOS dans PremisDM
 
-6/ Bloquer les requetes de l'ip procédant à l'attaque
+6/ Grand nombre de requêtes dans un laps de temps très court qui provoque extinction du système
+
+7/ Bloquer les requetes de l'ip procédant à l'attaque
 
  -->
 
@@ -1330,6 +1377,11 @@ Points de repères pour la base de données
 
 </div>
 </div>
+
+<div absolute bottom-10>
+<span v-click="3" op50> Base de données </span><span text-2xl v-click="3">50x plus rapide</span> 
+</div>
+
 
 <!-- 
 1/ 1ère étape repérer ces gouleau d'étranglement
