@@ -65,11 +65,11 @@ title: Timeline horizontale
 
 
 <!--
-Préciser que j'ai choisi l'esiea pour sa pédagogie et mon attrait déjà présent pour l'informatique.
+1/ Pédagogie par projets et intérêt pour l'informatique
 
-Préciser que j'ai rejoint Holis pour le côté jeune entreprise et tout à faire.
+2/ Holis pour le côté jeune et tout à faire.
 
-Ca m'a plu et l'entreprise était contente de moi donc je suis resté en alternance
+3/ Ca m'a plu et l'entreprise était contente de moi
 -->
 
 ---
@@ -86,12 +86,11 @@ title: Soutenance Thibaud Luro
 </h1>
 
 <!--
+1/ peine encore à se digitaliser (beaucoup de tâches manuelles et chronophages qui pourraient être automatisées)
 
-Aujourd'hui le monde de l'industrie peine encore à se digitaliser (beaucoup de tâches manuelles et chronophages qui pourraient être automatisées)
+2/ Les entreprises ayant transitionné vers des solutions digitales ont observé une augmentation de leur productivité de 15 à 25 %. D'aprés une étude de la société McKinsey & Company
 
-Les entreprises ayant transitionné vers des solutions digitales ont observé une augmentation de leur productivité de 15 à 25 %. D'aprés une étude de la société McKinsey & Company, nommée "The future of manufacturing: How digital technology is transforming the industry"
-
-Un des outils vendu par la société pour laquelle je travaille a augmenté de 30% la productivité (étude menée par le client de la solution)
+3/ Un des outils vendu par la société pour laquelle je travaille a augmenté de 30% la productivité (étude menée par le client de la solution)
 
 -->
 
@@ -114,9 +113,9 @@ class: flex flex-col items-start justify-center
 
 <!--
 
-J'ai choisi cette problématique car parfaite adéquation avec mon expérience professionnelle jusqu'à présent
+1/ J'ai choisi cette problématique car parfaite adéquation avec mon expérience professionnelle jusqu'à présent
 
-Une grande partie de ce qui m'attire en informatique est le fait de savoir que sa réalisation est utile à quelqu'un
+2/ Une grande partie de ce qui m'attire en informatique est le fait de savoir que sa réalisation est utile à quelqu'un
 -->
 
 
@@ -127,7 +126,7 @@ grow: right
 class: flex flex-col items-start justify-center
 ---
 
-## Oppotunités découlant de la problématique
+## Opportunités découlant de la problématique
 
 <div mt5 v-click>
 <span font-bold text-blue>Pour moi</span> : Travail sur projets innovants et techniques
@@ -147,10 +146,11 @@ Opportunités pour moi :
 - Me permet de travailler sur des projets techniques et innovants
 
 Société : 
-- Une industrie plus efficace peut mener à des produits de meilleure qualité à des coûts réduits, rendant ainsi les biens et services plus accessibles.
+- Efficacité => coûts réduits
 
 Planète : 
-- Les technologies digitales peuvent contribuer à une production plus durable en optimisant l'utilisation des ressources, en réduisant les déchets et en minimisant l'empreinte carbone des processus industriels.
+- Optimisation => Moins de production de co2
+- Moins d'erreurs humaines => Moins catastrophe éco
 -->
 
 ---
@@ -273,7 +273,11 @@ growY: 80
 
 
 <!--
+1/ Secteur important car lié à mes activités
 
+2/ Représentation site indus
+
+3/ Exemple durée de vie tuyau
 -->
 
 ---
@@ -343,10 +347,7 @@ growY: 0
 <h3 v-click text-white:50>S'adressant à des <b text-white:75 font-bold>ingénieurs</b> travaillant depuis des <b text-white:75 font-bold>bureaux</b></h3>
 
 <!--
-Applications web à la différence d'un site web qui permet simplement de donner des informations, images texte à l'image d'un blog
-
-L'application web va offrir du contenu plus dynamique et permettre des interractions plus complexes et des tâches plus spécifiques (manipulation de données, communication en temps réel) comme une messagerie gmail ou un outil de comptabilité.
-
+1/ Expliquer App Web
 -->
 
 ---
@@ -362,9 +363,11 @@ grow: right
 </div>
 
 <!--
-Utile pour réunion avant entrée sur site afin de localiser les éléments nécessitant un contrôle
+1/ Représentation 3D du site industriel du client
 
-Suivi de l'état de santé de son site industriel de manière visuel en répertoriant les différents dommages aux éléments 3D
+2/ Réunion avant entrée sur site afin de localiser les éléments nécessitant un contrôle
+
+3/ Suivi de l'état de santé de son site industriel de manière visuel en répertoriant les différents dommages aux éléments 3D
 -->
 
 ---
@@ -380,11 +383,13 @@ grow: left
 <img src="/premis.png" class="border border-2 border-gray-300 shadow-lg" alt="Premis DM Image">
 
 <!--
-Intégrité des données : Cette turbine est-elle liée à la bonne section du site industriel
+1/ Moins visuelle mais sujet de mon alternance donc REFERENCES plus tard
 
-Cohérence : L'état d'un tuyau ne peut pas être déclaré comme bon lorsqu'il a été vérifié pour la dernière fois il y a 5 ans
+2/ Format des données : Nb char nom tuyau (normes des industrie)
 
-Sujet de mon alternance donc références à cette application web au cours de la présentation
+2/ Cohérence : Turbine représentée dans le bon secteur du site industriel
+
+
 -->
 
 ---
@@ -435,23 +440,25 @@ clicks: 7
 </div>
 
 <!--
-Communication entre membres de l'équipe mais aussi avec les parties prenantes (client qui est interne à l'entreprise)
+2/ Communication entre membres de l'équipe mais aussi avec les parties prenantes (client qui est interne à l'entreprise)
 
-Gestion de projet pour assurer un suivi de l'avancement et garder des objectifs clairs et atteignables
+3/ Gestion de projet pour assurer un suivi de l'avancement et garder des objectifs clairs et atteignables
 
-Gestion du temps pour utiliser son temps de travail efficacement
+4/ Gestion du temps pour utiliser son temps de travail efficacement
 
-Base de données pour stocker les données des applications
+5/ Base de données pour stocker les données
 
-Framework pour réaliser la partie avec laquelle l'utilisateur va directement intéragir (partie qui a besoin des données)
+6/ Framework pour réaliser la partie avec laquelle l'utilisateur va directement intéragir (partie qui a besoin des données)
 
-Backend : Partie qui délivre les données (transit entre la base de données et le front)
+7/ Backend : Transit entre la base de données et le front
 
-Compétenance la plus faible aujourd'hui pour moi c'est communication, je ne fais pas toujours le premier pas meme si je m'oblige de plus en plus à le faire. Réticence ausssi d'aller voir le client par peur de poser des questions bêtes par exemple.
+8/ Expliquer pourcentages
 
-Mes compétencenes les plus fortes : Gestion du temps et Api
+9/ Compétenance la plus faible communication (premier pas)
 
-Représente mon éventail de compétences me permettant d'exercer mon activité professionnelle et de réaliser des produits capables de répondre à la problématique
+10/ Mes compétencenes les plus fortes 
+
+11/ Représente mon éventail de compétences me permettant d'exercer mon activité professionnelle et de réaliser des produits capables de répondre à la problématique
 
 -->
 
@@ -482,7 +489,7 @@ growY: 0
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
 <!--
-Souhait de survoler mes compétences humaines car ce sont elles indirectement qui permettent de répondre à la problématique de par les enjeux qu'elles couvrent et ce qu'on va voir de suite.
+1/ Répondent indirectement à la problématique
 -->
 
 ---
@@ -498,11 +505,11 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant de <span text-pink font-bold v-mark.highlight.pink.op5.delay200="1" inline-block p3 mx--2>"mener à bien"</span> un projet</h3>
 
 <!--
-Compétence centrale dans mon profil.
+1/ Compétence centrale dans mon profil.
 
-C'est celle qui permet de garder le projet dans la bonne direction.
+2/ C'est celle qui permet de garder le projet dans la bonne direction.
 
-Développement dans les temps et en adéqauation avec le besoin utilisateur
+3/ Développement dans les temps et en adéqauation avec le besoin utilisateur
 -->
 
 ---
@@ -528,17 +535,15 @@ Fonctionnement en sprints
 <img src="/notion.png" absolute bottom-0 left-0 ml-20 w-200 transition duration-400 :class="$clicks >= 1 ? 'op100' : 'op0'">
 
 <!--
-Pour PremiDM nous sommes passés par plusieurs systèmes de gestion de projet de par le statu de startup mais aujourd'hui fonctionnement en sprint (expliquer)
+1/ Pour PremiDM nous sommes passés par plusieurs systèmes de gestion de projet mais aujourd'hui fonctionnement en sprint (expliquer)
 
-Réunions hebdomadaires sur l'état de l'avancement et le reste à faire. Partage des difficultés si besoin d'aide
+2/ Réunions hebdomadaires sur l'état de l'avancement et le reste à faire. Partage des difficultés si besoin d'aide
 
-Là où c'est intéressant c'est que Gestion seul du projet
+3/ Là où c'est intéressant c'est que Gestion seul du projet
 
-C'est aujourd'hui moi qui transforme le besoin client en fonctionnalité et qui en estime de temps nécessaire pour transofmrer ce besoin en foncitonnalité
+4/ C'est aujourd'hui moi qui transforme le besoin client en fonctionnalité et qui en estime de temps nécessaire pour transofmrer ce besoin en foncitonnalité
 
-Nous utilisons l'outil Notion un outil complet permettant la prise de notes comme la possibilité de faire suivre des tâches dans un tableau d'avancement.
-
-C'est un outil que j'utilise meme dans mes projets personnels pour la définition d'objectifs et la prise de note en général.
+5/ Nous utilisons l'outil Notion un outil complet permettant la prise de notes comme la possibilité de faire suivre des tâches dans un tableau d'avancement.
 </div> -->
 
 
@@ -555,7 +560,11 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant d' <span text-orange font-bold v-mark.highlight.orange.op5.delay200="1" inline-block p3 mx--2>"optimiser"</span> ses ressources</h3>
 
 <!--
-Pour pouvoir respecter les délais des tâches qui a été définie dans la partie gestion de projet et éviter des situations de stress, une bonne gestion de son temps de travail permet d'être le plus efficace possible tout en faisant attention à garder du recul sur ce qui est fait sans avancer comme on dit avec la tête dans le guidon.
+1/ Pour pouvoir respecter les délais des tâches qui a été définie dans la partie gestion de projet et éviter des situations de stress
+
+2/ Une bonne gestion de son temps de travail permet d'être le plus efficace possible 
+
+3/ Tout en faisant attention à garder du recul sur ce qui est fait sans avancer comme on dit avec la tête dans le guidon.
 -->
 
 ---
@@ -596,20 +605,20 @@ Technique d'organisation du temps de travail en cycle
 
 <!-- 
 
-Définition d'objectifs quotidier ca m'aide à rester concentré et motivé
+1/ Rester concentré et motivé
 
-Place les tâches les plus complexes en haut du panier pour avoir le plus d'énergie possible
+2/ Place les tâches les plus complexes en haut du panier pour avoir le plus d'énergie possible
 
-Cela m'a permis de répondre aux attentes de mes supérieurs en entreprise mais aussi de les dépasser en livrants des résultats dans des délais serrés
+3/ Cela m'a permis de répondre aux attentes de mes supérieurs en entreprise mais aussi de les dépasser en livrants des résultats dans des délais serrés
 
 
-Méthode pomodoro je l'utilise plus dans un contexte persoonnel pour la réalisation de mes projets
+4/ Méthode pomodoro je l'utilise plus dans un contexte personnel pour la réalisation de mes projets
 
-Permet de me concentrer intensément sans distractions qui sont plus présentes chez moi qu'en entreprise
+5/ Permet de me concentrer intensément sans distractions qui sont plus présentes chez moi qu'en entreprise
 
-Travailler de manière structurée et efficace pendant une période X de temps
+6/ 25min puis 5min répétées X fois
 
-Avec un rythme sain favorisant les pauses régulières.
+7/ Fonctionne très bien sur moi
  -->
 
 ---
@@ -625,7 +634,7 @@ growY: 0
 <h3 v-click text-white:50>Compétence humaine permettant de <span text-lime font-bold v-mark.highlight.lime.op5.delay200="1" inline-block p3 mx--2>"transmettre"</span> efficacement des informations</h3>
 
 <!--
-Essentielle dans une équipe de développement pour avancer dans la même direction
+1/ Essentielle dans une équipe de développement pour avancer dans la même direction
 -->
 
 ---
@@ -648,13 +657,15 @@ L'importance de la communication dans les projets
 </v-clicks>
 
 <!--
-Même si nous ne travaillons pas sur les même projets il est essentiel de communicquer entre nous
+1/ Même si nous ne travaillons pas sur les même projets
 
-En échangeant régulièrement, on peut identifier les obstacles potentiels tôt et trouver des solutions ensemble.
+2/ En échangeant régulièrement, on arrive à identifier les obstacles potentiels tôt et trouver des solutions ensemble.
 
-De plus la plupart des projets sont étroitements liés de par le secteur visé qui est similaire donc parfois fonctionnalités ou comportements similaires dans les différentes solutions donc éviter de refaire quelque chose de déjà fait
+3/ De plus la plupart des projets sont étroitements liés de par le secteur visé qui est similaire
 
-Cela permet également de célébrer les succès et de maintenir une bonne dynamique de groupe.
+4/ Evite de refaire des fonctionnalités
+
+5/ Cela permet également de célébrer les succès et de maintenir une bonne dynamique de groupe.
 -->
 
 ---
@@ -670,9 +681,9 @@ growY: 0
 <h3 v-click text-white:50>Leur <b text-white:75 font-bold>utilistation</b> dans le cadre de notre <b text-white:75 font-bold>problématique</b></h3>
 
 <!--
-Avec pour pilier les compétences humaines présentées précedemment, l'associtaion des compétences techniques va nous permettre de répondre à notre problématique
+1/ S'attarder sur les compétences techniques car c'est celles qui vont nous permettre de répondre au mieux à la problématique
 
-S'attarder sur les compétences techniques car c'est celles qui vont nous permettre de répondre au mieux à la problématique
+2/ Permettent des développer des solutions utiles à l'industrie
 -->
 
 
@@ -723,17 +734,21 @@ grow: right
 </div>
 
 <!--
-Commencé à travailler sur Premis DM vers la fin de mon stage.
+1/ Comment répondre aux besoin de l'industrie avec une app web
 
-C'est moi qui suit à l'origine du projet et qui ai pensé en partie son architecture. 
+2/ MVP montrable à des potentiels clients pour juger l'intérêt
 
-De base volonté d'un projet fonctionnel (MVP) montrable à des potentiels clients pour juger l'intérêt
+3/ C'est moi qui suit à l'origine du projet et qui ai pensé en partie son architecture. 
 
-Le défi a été de transitionner d'un projet fonctionnel à robuste (sujet toujours d'actualité)
+4/ Le défi a été de transitionner d'un projet fonctionnel à robuste (sujet toujours d'actualité)
 
-Principal défi et sujet qui va être au centre des prochaines explications c'est le travail avec de très forts volumes de données (données de tout un site industriel) (millions de lignes de données)
+5/ Princiapl défi : travail avec de forts volumes de données
 
-Comment faire en sorte qu'une application web puisse être toujours utilisable et utile aux acteurs du secteur industriel peu importe le nombre de données nécessaire à son fonctionnement
+6/ Enoncer aspects à travailler pour répondre au besoin énoncé plus tôt
+
+7/ Dérouler les étapes
+
+8/ Expliquer sécurité et scalabilité
 -->
 
 
@@ -750,13 +765,9 @@ growY: 0
 <h3 v-click text-white:50>Compétence technique permettant de réaliser une <span text-yellow font-bold v-mark.highlight.yellox.op5.delay200="1" inline-block p3 mx--2>"Interface Utilisateur"</span></h3>
 
 <!--
-Compétence essentielle pour un web développeur 
+1/ Découvert avec la technologie angular à l'école 
 
-découvert avec la technologie angular à l'école 
-
-Approfondie en entreprise avec la technologie React
-
-Aujourdhui je passe tout le temps par cette technologie
+2/ Approfondie en entreprise avec la technologie React
 -->
 
 
@@ -786,9 +797,8 @@ Travail avec de forts volumes de <span flex="inline gap-1 items-center" text-lim
 </div>
 
 <!--
-Rappel des défis à franchir pour servir le monde de l'industrie
+1/ Défis auquel j'ai du faire face personnellement
 -->
-
 
 ---
 grow: bottom
@@ -818,13 +828,15 @@ Problème de surcharge mémoire
 </div>
 
 <!--
-Programme informatique utilise de la mémoire vive pour fonctionner et quand les tâches qu'il a à réaliser sont trop énergivores, la mémoire sature et le programme plante
+1/ Expliquer fonctionnalité Excel
 
-Problème qu'on a eu sur notre première version fonctionnelle à l'arrivée de volumes de données plus conséquents que ce que l'on connaissait
+2/ Besoin de mémoire vive qui sature si trop énergivore
 
-Du réfléchir à des solutions moins communes que les implémentations classiques de React. 
+3/ Problème à l'arrivée de données test par client
 
-Après m’être renseigné sur le sujet j’ai proposé à mon maître d’apprentissage l’implémentation de Workers qu’il a tout de suite acquiescée. 
+4/ Du réfléchir à des solutions moins communes que les implémentations classiques de React.
+
+4/ Proposition de l’implémentation de Workers qu’il a tout de suite acquiescée. 
 -->
 
 
@@ -855,20 +867,16 @@ Mise en application de la compétence pour de forts volumes de <span flex="inlin
 </div>
 
 <!--
+1/ Une instance princiaple s'occupe de toute l'extraction
 
-Boulanger principal qui s'occupe de la plupart des tâches : prendre les commandes, faire le pain, servir les clients, etc.
+2/ Avec workers délégation de ce travail à de nouvelles instances
 
-Tellement de clients qu'il est difficile pour le boulanger de tout gérer à la fois. 
-Il doit prendre les commandes, préparer les pains, cuire les pains, et tout ça en même temps. Cela peut devenir très lent et les clients doivent attendre longtemps.
+3/ Les workers communiquent avec l'instance principale pour signaler l'avancement de la tâche
 
-Le Worker
-Pour aider le boulanger, tu engages un assistant (le worker). 
-Cet assistant peut faire des tâches spécifiques de manière autonome. Pétrir la pâte ou de surveiller les pains dans le four. 
-Ainsi, le boulanger peut se concentrer sur les tâches plus importantes ou prendre plus de commandes.
+4/ Parallélisme, ils fonctionnent meme temps
 
-Dans le contexte d'une application web, un worker est un peu comme cet assistant. Quand ton application a des tâches lourdes ou chronophages (Extraction de données de fichiers Excel), elle peut les déléguer à un worker. Le worker s'occupe de ces tâches en arrière-plan pendant que l'application principale continue de répondre rapidement aux utilisateurs.
-
-</div> -->
+5/ Détruits pour économiser de la mémoire
+ -->
 
 
 ---
@@ -892,18 +900,16 @@ Mise en place de workers
 </v-clicks>
 
 <!--
-L'implémentation de Workers est arrivée comme une solution ingénieuse. Corrigeant le problème et fluidifiant grandement le processus d'import.
+1/ Corrigeant le problème de mémoire et fluidifiant grandement le processus.
 
-L'adoption de cette approche a marqué un tournant dans le développement de Premis. Mettant en lumière la possibilité de mettre en place des solutions semblables au sein de l'application web. 
+2/ Temps d'opération divisé par 4 (outils d'analyse de moi)
 
-L’application était à ce moment-là fonctionnelle et performante pour le volume de données que nous connaissions.
+3/ Aujourd'hui le système a encore été repris par mon maître d'apprentissage basculant cette manipulation côté backend avec un sytème de streaming des fichiers (lecture de ceux-ci par morceaux)
 
-Temps d'import divisé par 4 
+4/ Possibilité de mieux mais pas eu la vision aussi large de par manque d'expérience et conscience des possibles
 
-Aujourd'hui le système a encore été repris par mon maître d'apprentissage basculant cette manipulation côté backend avec un sytème de streaming des fichiers (lecture de ceux-ci par morceaux)
-
-Ce qui montre que même si cela fonctionnait bien dans un but prévisionnel il était possible d'arriver à une solutio nencore plus fiable en poussant la réflexion encore plus loin. Ce qui n'a pas été le cas à ce moment-là de par un manque d'expérience et de conscience des possible.
-</div> -->
+5/ Surtout permis de mettre en lumière la mise en place d'optimisations similaires dans l'app
+ -->
 
 ---
 grow: bottom
@@ -955,21 +961,23 @@ Chargement des données au scroll (dans une liste de données ou tableau)
 </div>
 
 <!-- 
-Dans ma quête de recherche de gouleau d'étranglement 
+1/ Liste de tous les points bloquants
 
-Premier point Temps de chargement long de certaines pages ce qui est regrétable car fait perdre du temps
+2/ Premier point Temps de chargement long de certaines pages ce qui est regrétable car fait perdre du temps
 
-Deuxième point : Navigation lente dans de longues listes de données (temps de chargement qui n'est pas fluide et désagrable à l'utilisation)
+3/ Deuxième point : Navigation lente dans de longues listes de données (saccadé / désagrable à l'utilisation)
 
-le lazy loading consiste à charger les choses seulement quand on en a besoin, ce qui permet de gagner du temps et de la place lorsque vous avez une page avec beaucoup de contenu
+4/ le lazy loading expliquer
 
-le infinite scrolling permet de gérer et de visualiser de grandes quantités d'informations de manière efficace, en ne montrant que ce qui est nécessaire au fur et à mesure.
+5/ Infinite scrolling (explqieur)
 
-Application beaucoup plus fluide et surprend les clients lors de démonstration par rapport aux outils qu'ils connaissent où la moindre action prend beaeucopu de temps. 
+6/ Temps d'affichage initail jusqu'à 1 minute (inconcevable)
 
-Le fait de diviser les tâches de n'appeler les données que lorsqu'elles sont réellement nécessaires c'est ça qui contribue à la réalisation d'une application web robuste capable de servir à l'industrie permettant d'améliorer la productivité des entreprises du secteur. Le but est de leur faire gagner du temps avec l'utilité de nos outils donc aspect super important.
+7/ Maintenant en milisecondes
 
-Mais ces résultats ne proviennet pas uniquement de ce côté du développement d'application web mais aussi grandement du côté Backend la partie submergée de l'iceberg
+8/ Addition
+
+9/ Phase d'optimisation quasi terminée front mais surtout côté back
  -->
 
 ---
@@ -985,19 +993,11 @@ growY: 0
 <h3 v-click text-white:50>Compétence technique permettant <span text-green font-bold v-mark.highlight.green.op5.delay200="1" inline-block p3 mx--2>"Le transit et le stockage de Données"</span></h3>
 
 <!--
-On va parler ici du côté API et BDD
+1/ On va parler ici du côté API et BDD
 
-Compétence essentielle pour un développeur d'app web
+2/ Découvert avec la technologie Java et MySQL à l'école 
 
-découvert avec la technologie Java et MySQL à l'école 
-
-Approfondie en entreprise avec la technologie Node via ExpressJS et PostgreSQL
-
-Côté API compétence la plus forte actuellement
-
-J'utilise tout le temps Express amintenant et des bdd sql comme des non sql mongdb pour des projets perso
-
-Mais on va surtout parler d'express et de postgresql au service de l'industrie ici
+3/ Approfondie en entreprise avec la technologie ExpressJS et PostgreSQL
 -->
 
 ---
@@ -1046,7 +1046,7 @@ Anticiper en mettant l'accent sur la <span flex="inline gap-1 items-center" text
 </div>
 
 <!--
-Rappel des défis à franchir pour servir le monde de l'industrie
+1/ Défis auxquels j'ai fait face à l'aide de mes compétences
 -->
 
 
@@ -1083,17 +1083,16 @@ Problème de surcharge mémoire
 </div>
 
 <!--
-Programme informatique utilise de la mémoire vive pour fonctionner et quand les tâches qu'il a à réaliser sont trop énergivores, la mémoire sature et le programme plante
+1/ Rappel de la notion de check
 
-Problème qu'on a eu sur notre première version fonctionnelle à l'arrivée de volumes de données plus conséquents que ce que l'on connaissait
-
-Rappel des checks de cohérence et du format
-
-Algorithme côté bakckend qui s'en charge et qui fait les checks ligne de données par ligne de données
-
-Exécute une série d'action pour vérifier : 
+2/ 
+Algo back qui Exécute une série d'action pour vérifier : 
 - La taille des chaines de charactères 
 - Exécution de requetes en base de données pour vérifier présence de donnée sur une partie du site industriel
+
+3/ Rappel utilisation mémoire
+
+4/ Problème de mémoire avec arrivée de nouvelles données
 -->
 
 
@@ -1138,21 +1137,22 @@ Gestion des données par lots
 </div>
 
 <!-- 
-Stockage en cache pour les check
 
-Surtout utile pour les requetes en base de données c'est tres couteux donc ca permet de garder ces résultats pour les exploiter pour les autres lignes
+1/ Beaucoup de requetes similaires
 
-Caching simple mais ambitions de passer sur un service plus complexe d'ici peu de temps tels que Redis
+2/ Stockage des résulats dans le cache pour rapidité
 
-Batch partout dans le bakcend pour le tratement de données (ligne par ligne)
+3/ Caching simple mais ambitions de passer sur un service plus complexe d'ici peu de temps tels que Redis
 
-Aujourd'hui l'implémentation permet d'éviter des crash mémoire mais on est face à un nouveau problème c'est la lenteur d'exécution.
+4/ Batch partout dans le bakcend (opérations crud) pour le tratement de données (ligne par ligne)
 
-Ouverture possiblie split des tâches via des workers pour séparer les différents algo de checks 
+5/ Système concu pour gérer gran nb données
 
-ou alors option discutés avec mon matire d'apprentissage, l'adoption de micro services avec un langage bas niveau donc plus proche de la machine (worker plus poussé avec beaucoup plus de controle sur tout ce qui va etre gestion de la mémoire)
+6/ Fiabilité : Moins de surpirse toujouts meme nb lignes
 
-Je parle d'ouverture car c'est un sujet qui est toujours d'actualité l'amélioration de l'application et l'amener vers une solution robuste. Dès la semaine prochaine je vais travailler sur ce genre de points.
+7/ Aujourd'huipas de pb mémoire mais un nouveau problème c'est la lenteur d'exécution.
+
+8/ Pas encore mis en place mais ouverture sur l'adoption de micro services avec un langage bas niveau donc plus proche de la machine (worker plus poussé avec beaucoup plus de controle sur tout ce qui va etre gestion de la mémoire)
 
 -->
 
@@ -1189,17 +1189,15 @@ Failles de sécurité sur la version de démonstration
 </div>
 
 <!--
-Il faut que je vous parle de quelque chose dont je ne suis pas fier mais qui a eu lieu
+1/ Il faut que je vous parle de quelque chose dont je ne suis pas fier mais qui a eu lieu
 
-Sur la version de démonstration il y avait des failles de sécurité côté backend et notamment des failles sql (expliquer)
+2/ Sur la version de démonstration failles sql connues dans le milieu (expliquer)
 
-Ce n'était pas un concep avec lequel j'étais familier alors que ca fait partie des failles de sécruité les plus basiques
+3/ Ce ne nous a pas causé de tort car l'application n'était pas en production
 
-Ce ne nous a pas causé de tort car l'application n'était pas en production mais ca cette expérience m'a permis de mieux comprendre le sujet et anticiper ce genre de problèmes à l'avenir
+4/ Rappel sur l'imporance de la sécurité
 
-Ce problème est présent de par une fonctionnalité dans l'application qui est sous la forme de requete personnalisée et qui permet à l'utilisateur de récupérer des données utiles pour lui lié à son site industriel.
-
-Ce systeme passait par une requete à l'api qui si modifiée avec n'importe quel nom de colonne ou table à la place aurait pu permettre la récupération de données auquel l'utilisateur n'est pas censé avoir accès.
+5/ Fonctionnalité Custom Request avec modification du contenu alors récupération de n'importe quelle donnée de la base
 -->
 
 
@@ -1240,15 +1238,23 @@ Limiter le débit
 </div>
 
 <!-- 
-  Côté back j'ai pu empêcher la récupération de ces données en limitant le champ de possibilités des colonnes et tables possibles de récupérer.
+1/ Contrer le problème avec Sanitisation
 
-  De plus j'ai utilisé des systèmes connus de sanitanisation de données telles que l'échappement pour indiquer à la base que certaines parties de la requete ne doivent pas être interprétées comme du code mais comme du texte pur et dur
+2/ 3 points :
 
-  L'utilisation de requetes préparées aussi appelées prepared statements ont permis de limiter ce genre de problème au global dans l'applcation en même temps que d'améliorer les performances de la requete puisque celle-ci est entre guillement connue de la base et où l'utilisateur ne peut en aucun cas la modifier.
+- Réduction possibilités en liimitant colonnes et tables
 
-  Sur un projet personnel et pour un cas différent ici pour se protéger des attaques ddos (expliquer) j'ai mis en place une protextion capable de détecter si un meme utilisateur a une utilisation suspecte de l'application ici s'il fait beaucoup de requete dans un temps limité. 
+- Echappement (texte et pas code)
 
-  Projet de l'implémenter dans Premis DM c'est toujours un plus
+- Prepared statements (non modifiable et connues de la base) => Aide à la performance
+
+3/ Plus de problème de sécurité classique et connu
+
+4/ Protection DDOS sur un projet personnel avec pour projet de le ramener dans PREMIS
+
+5/ Grand nombre de requêtes dans un laps de temps très court qui provoque extinction du système
+
+6/ Bloquer les requetes de l'ip procédant à l'attaque
 
  -->
 
@@ -1280,11 +1286,11 @@ Base de données peu performante
 </div>
 
 <!--
-Dernier aspect permettant d'arriver à une application capable de servir le milieu de l'industrie c'est la scalabilité (le fait d'anticiper et d'avoir une marge de manoeuvre avant l'arrivée d'utilisteurs supplémentaires par exemple)
+1/ Dernier aspect scalabilité
 
-Trop de données en base de données qui ont fait que la base ne délivrait les données souhaitées que très lentement (plusieurs minutes pour afficher une table de données jusqu'à plusieurs dizaines de minutes
+2/ Après donénes bdd peu performante (10 min de récup de data pour une table)
 
-En partie du au fait que la bdd n'était pas du tout optimisée. Aucune mise en place spécifique
+3/ En partie du au fait que la bdd n'était pas du tout optimisée. Aucune mise en place spécifique
 -->
 
 
@@ -1325,29 +1331,23 @@ Points de repères pour la base de données
 </div>
 
 <!-- 
-1ère étape repérer ces gouleau d'étranglement 
+1/ 1ère étape repérer ces gouleau d'étranglement
 
-La première réflexion a été le fait qu'une partie des données de l'application ne sont utilisées uniquement en lecture seule (pas de modif ou quoi) et que ces données dépendant d'autres trables.
+2/ Création de tables inutes car uniquement utilisée en lecture
 
-Cepednant des tables étaient construites pour assurer l'accès à ces données là ce qui allourdi la base de données.
+3/ Remplacement par des vues (expliquer)
 
-C'est à ce moment-là que j'ai mis en place des vues (expliquer)
+4/ BDD beaucoup plus légère
 
-BDD beaucoup plus légère
+5/ Récupération plus rapide car optimisation de ces requetes
 
-Plus de recherches par la suite et prise de connaissance sur l'indexation 
+6/ Indexation exemple avec libre et marque page
 
-Expliquer indexation avec l'exemple du livre pour chercher une info rapidement
+7/ Indexation sur les FK
 
-Indexation sur les colonnes servant de liens entre les tables (aussi appelées foreign key) donc accélération des recherches
+8/ Aujourd'hui base de données 50x plus rapide que la première version fonctionnelle
 
-Indexation a énormément grandi la puissance de récupération de données permettant de récupérer des données 10x plus rapidement
-
-Commandes internes au systèmes postgresql pour l'analyse de base de données permettant de faire une analyse automatique de l'ordre d'exécution des requetes les plus optimisées
-
-Aujourd'hui cela fonctionne bien mais dans une optique de prévision comme le veut la scalabilité 
-
-Se pencher sur du sharding de la base (séparation en plusieurs parties pour assurer une réduction de la charge de travail et une meilleure scalabilité)
+9/ Fonctionne bien aujourd'hui mais pour prévoir le futur je vais commencer à imaginer la possibilité de shard la bdd (déouper en morceaux)
  -->
 
 ---
@@ -1359,29 +1359,36 @@ class: flex flex-col items-start justify-center
 # Ma Légitimité
 
 <div mt5 v-click>
+<span>Potentiels clients surpris de la <span v-mark.underline.red="1">rapidité</span></span>
+</div>
+
+<div mt5 v-click>
 <span>Gestion du projet Premis DM en <span v-mark.underline.purple="1">autonomie</span></span>
 </div>
 
 <div mt5 v-click>
-<span>Possible adoption de la solution au niveau <span v-mark.underline.red="2">international</span></span>
+<span>Possible adoption de la solution au niveau <span v-mark.underline.yellow="2">international</span></span>
 </div>
 
 <!--
-J'aimerai maintenant préciser que c'est grâce à tout ce qu'on a vu que ce soit côté backend et côté frontend qu'aujourd'hui l'application web PremisDM se rapproche d'une solution robuste capable de répondre aux besoins actuels du monde de l'industrie
 
-Comment et avec quelle légitimité je peux vous affirmer que ces méthodes fonctionnent et qu'elles répondent à la problématique c'est à dire que ces méthodes sont capables d'arriver à des solutions capables d'améliorer l'efficacité du secteur industriel 
+1/ Ajd Premis parfait avec data de petit à moyen site indus
 
-Expliquer la confiance qu’à l’entreprise en moi pour me confier une application web à gérer en grande partie seul en m’occupant moi même des interactions clients 
+2/ Pas optimal pour de grand site industriels
 
-Je manage les personnes m'aidant sur le projet.
+3/ Après démo client la rapidité des apps est toujours relevère
 
-Solution présentée à un géant de l'industrie et en discussion pour être adopté à un niveau mondial donc faire lien avec la problématique
+4/ Confiance de l'entreprise en moi pour me laisser gérer le projet
 
-Afin transformer les méthodes de travail de cette entreprise industrielle pour améliorer l'efficacité et la compétitivité
+5/ Je manage les personnes m'aidant sur le projet.
 
-Permettant une éventuelle baisse de prix profitable à la société
+6/ Discussions internes chez un géant de l'industrie
 
-Et une production plus durable pour la planète
+7/ Ajd je me sens légitime de réaliser des solutions capables de transformer les méthodes de travail dans l'indus afin d'améliorer l'efficacité des sociétés les adoptant
+
+8/ En espérent permettre une efficacité entrainant une baisse de prix profitable à la société
+
+9/ Et une production plus durable pour la planète de par l'optimisation des processus
 -->
 
 ---
@@ -1415,13 +1422,15 @@ Plusieurs <span v-mark.box.teal.delay400="5" text-teal mx1>"étapes"</span> avan
 </div>
 
 <!--
-Envie de continuer mon activité au sein d'holis consulting
+1/ Envie de continuer mon activité au sein d'holis consulting (compétences)
 
-Passion pour le développement et une fascination des possibilités ouvertes par la profession
+2/ Passion pour le développement et une fascination des possibilités ouvertes par la profession
 
-Aujourd'hui utilisation de mon temps libre dans cette direction en espérant un jour développer une activité le plus loin possible
+3/ Aujourd'hui utilisation de mon temps libre pour création d'une activité parallèle
 
-Plusieurs projets à mon actif mais présentation des 3 les plus pertinents
+4/ Plusieurs projets à mon actif mais présentation des 3 les plus pertinents
+
+5/ Représente les étapes vers la construction d'un projet solide
 -->
 
 
@@ -1450,9 +1459,11 @@ growY: 80
 
 
 <!--
-Développé pendant le semestre où on apprenait android
+1/ Développé pendant ma deuxième année à l'esiea
 
-Envie de pousser le projet au bout mais jamais été sur les store car objectifs flous avec mon ami (commanditaire) et jamais réussi à se mettre daccord
+2/ Epliquer le principe
+
+3/ Objectif non clair avec ommanditaire vision floue de la mission (prjet jamais abouti)
 -->
 
 ---
@@ -1472,7 +1483,7 @@ growY: 80
 <div flex="~ col gap-4" text-left>
 <div text-2xl>Application Mobile Android et IOS</div>
 <div w-80 v-click>Faciliter l'organisation de soirées entre amis</div>
-<div op50 w-80 v-click>Mauvaise stratégie Marketing</div>
+<div op50 w-80 v-click>Non test de l'intérêt</div>
 </div>
 
 </div>
@@ -1482,13 +1493,15 @@ growY: 80
 
 
 <!--
-Pendant l'été d'il y a deux ans
+1/ Frustré donc définition clair d'objectifs
 
-8 mois de dev
+2/ Expliquer utilité
 
-Vouloir sortir un projet trop fini presque parfait sans avoir réellement testé un intérêt
+3/ Débuté il y a deux ans et 8 mois de dev
 
-Loupé sur la stratégie marketing car moi même j'ai douté de la perspicacité du projet
+4/ Vouloir sortir un projet trop fini presque parfait sans avoir réellement testé un intérêt
+
+5/ Non réussite à la fidélisation des utilisateurs
 -->
 
 
@@ -1517,9 +1530,13 @@ growY: 80
 
 
 <!--
-Site web communautaire sans business plan derrière (pas de rémunération)
+1/ Nouveau projet avec volonté de corriger les nouvelles erreurs
 
-Juste une volonté d'améliorer mes compétences en marketing et de faire un site pouvant servir à des gens et moi le premier
+2/ Pas de businnes plan (projet communautaire)
+
+2/ Expliquer le principe
+
+3/ Test du marché avec un MVP sorti en 1 semaine
 -->
 
 
@@ -1535,11 +1552,13 @@ class: flex items-center justify-center
 </div>
 
 <!--
-Stratégie marketing via twitter car plateforme populaire auprès de l'audience visée par la solution
+1/ Campagne twitter car communauté sur ce réseau social
 
-illustration de l'intérêt de la communauté
+2/ obtention d'un intérêt de la communauté
 
-Encourageant pour la suite et confiant de mes capacités à arriver au bout d'un projet plus concret
+3/ 10 à 20aine d'utilisateurs quotidiens
+
+4/ Encourageant pour la suite et confiant de mes capacités à arriver au bout d'un projet plus concret
 -->
 
 
@@ -1555,5 +1574,5 @@ growY: 120
 Avez-vous des questions ?
 
 <!--
-That's all for my talk, thank you, and happy hacking!
+
 -->
